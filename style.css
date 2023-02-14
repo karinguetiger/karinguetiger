@@ -163,7 +163,7 @@ a.bg-image { display: block;}
 .uppercase    { text-transform: uppercase; }
 
 body {
-  font-family: 'Mulish', serif;  /* Add your font here */ 
+  font-family: 'Poppins', sans-serif;  /* Add your font here */ 
   color: var(--dark-text);
 }
 
@@ -181,7 +181,7 @@ h6 { font-size: 1.2rem; }
 p, li {
   line-height: 1.4; 
   margin-bottom: 1rem;
-  font-family: 'Martel', serif; 
+  font-family: 'Noto Serif JP', serif; 
   font-weight: 200;
   font-size: 1rem;
 }
@@ -244,12 +244,15 @@ p a:hover {
 
 /* ------------ Header & Hamburger Menu -------------- */
 
-
+.header-logo {
+  padding: 10%;
+}
 
 nav a {
     padding: 0.25rem 0.5rem;
     display: inline-block;
     text-decoration: none;
+    font-weight: 300;
 }
 nav a:hover {
   color: var(--featured-text);
@@ -323,63 +326,19 @@ nav a:hover {
 }
 
 
-  .burger-button {
-    position:fixed;
-    top: 2vh;
-    right: 2vh;
+  .menu-button {
     z-index: 9;
     padding: 8px;
     margin-top: 0.7rem;
     margin-right: 0.5rem;
     cursor: pointer;
-    
-  }
-  /*this is where you can chand the color of the buttons*/
-  .burger-button span{
-    width: 35px;
-    border: 2px solid #efece8;
-    background-color: white;
-    display: block;
-    transition: 0.5s;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .burger-button.active span{
-    border-color: #efece8;
-    background-color:white;
   }
   
-  .burger-top, .burger-bottom{
-    position: absolute;
-  }
-  
-  .burger-top{
-    top: -02px;
-  }
-  
-  .burger-bottom{
-    bottom: -02px;
-  }
-  /* make sure this has the same top as the burger button has padding*/
-  .burger-button.active .burger-top{
+  .menu-button.active {
     position: absolute;
     top: 8px;
-    transform: rotateZ(45deg);
   }
   
-  .burger-button.active .burger-middle{
-  /*   transform: rotateZ(270deg); */
-    border-color: rgba(0,0,0,0);
-    background-color:rgba(0,0,0,0);
-  }
-  
-  /* make sure this has the same bottom as the burger button has padding*/
-  
-  .burger-button.active .burger-bottom{
-    position: absolute;
-    bottom: 8px;
-    transform: rotateZ(-45deg);
-  }
 
   .mobile-menu {
     background-color: var(--less-dark);
