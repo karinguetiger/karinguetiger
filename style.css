@@ -366,10 +366,10 @@ footer nav a{
   left: -1rem;
   padding: 0.5rem;
   display:none; 
-  background-color: var(--less-dark);
+  background-color: var(--light);
   z-index: 2;
   text-align: left;
-  min-width: 10rem;
+  min-width: 14rem;
 }
 
 .dropdown-content-index {
