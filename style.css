@@ -104,6 +104,9 @@ section { position: relative; }
 .bg-medium   { background-color: var(--medium); }
 .bg-light    { background-color: var(--light); }
 .bg-v-light  { background-color: var(--v-light); }
+.bg-rose     { background-color: #F3DAED; }
+.bg-gold     { background-color: #EBBF8C; }
+.bg-green    { background-color: #BAE5D6; }
 
 .bg-image {
     background-color: var(--light); /* Set a fall-back color while images are loading */ 
@@ -180,9 +183,20 @@ h1 {
   font-size: 2.5rem;
 }
 
-h2 { font-size: 2rem; }
-h3 { font-size: 1.8rem; }
-h4 { font-size: 1.6rem; }
+h2 { 
+  font-size: 2rem; 
+  font-family: 'Noto Serif JP', serif;
+}
+h3 { 
+  font-size: 1.8rem;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 200;
+ }
+h4 { 
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+ }
 h5 { font-size: 1.4rem; }
 h6 { font-size: 1.2rem; }
 
@@ -211,6 +225,16 @@ p:last-child {
 .subtitle       { font-size: 0.8rem; }
 
 .white-text     { color: white; }
+.dark-text      { color: var(--dark-text)}
+
+.jp     { font-family: 'Noto Serif JP', serif; }
+.poppins { font-family: 'Poppins', sans-serif; }
+
+.quote {
+  font-size: 2rem; 
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight: 200; 
+}
 
 
 /* ------------ Buttons & Links ------------ */
@@ -511,13 +535,49 @@ hr.short.center {
 }
 
 
-/* ------------ Page Name  ----------------------- */
+/* ------------ Index Page  ----------------------- */
+
+
+.apo-left {
+  position: absolute;
+  left: 2rem;
+  bottom: 3rem;
+  font-size: 3rem;
+  font-weight: 200; 
+}
+
+.apo-right {
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  font-size: 3rem;
+  font-weight: 200; 
+}
+
+
+.subtle {
+  opacity: 0.8;
+}
+
+
+.card {
+  padding-top: 2.4rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
 
 
 
-
-
-
+.card-image {
+  border-radius: 2.5rem; 
+  padding: 1rem;
+}
 
 
 
@@ -548,6 +608,13 @@ hr.short.center {
     padding-bottom: 130px;
   }
 
+  h3 { 
+    font-size: 1.4rem;
+   }
+  h4 { 
+    font-size: 1.2rem;
+   }
+
 }
 
 /* ------- SM Media Query (48em / 768px) --------------- */ 
@@ -577,6 +644,13 @@ hr.short.center {
   .sm-portrait      { padding-bottom: 125%; }
   .sm-square        { padding-bottom: 100%; }
 
+  h3 { 
+    font-size: 1.2rem;
+   }
+  h4 { 
+    font-size: 1.1rem;
+   }
+
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -587,8 +661,26 @@ hr.short.center {
 		.show-xs { display: block; }
 		.hide-xs { display: none;  }
 
-    .subtle-heading-xs {
-      font-weight: 300;
-      font-family: 'Martel', serif; 
+    .horizontal-scroll {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      padding-left: 1rem;
+      padding-bottom: 10%;
+      padding-right: 1rem;
     }
+    
+
+    
+    .mob-padded-0 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    h3 { 
+      font-size: 1.1rem;
+     }
+    h4 { 
+      font-size: 1rem;
+     }
+
 }
