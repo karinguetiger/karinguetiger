@@ -111,6 +111,7 @@ section { position: relative; }
 .bg-rose     { background-color: #F3DAED; }
 .bg-gold     { background-color: #EBBF8C; }
 .bg-green    { background-color: #BAE5D6; }
+.bg-white    { background-color: white; }
 
 .bg-image {
     background-color: var(--light); /* Set a fall-back color while images are loading */ 
@@ -513,66 +514,7 @@ footer nav a{
 
 
 
-/* ------------ Blogging elements  ----------------------- */
 
-
-
-/* Post Loop Item  */
-
-.post-item {
-  text-decoration: none;
-}
-
-
-/* Individual Elements */
-
-.tag {
-  display: inline-block;
-  font-weight: bold;
-  text-transform: uppercase;
-  opacity: 0.5;
-  font-size: 0.8rem;
-  margin-right: 0.4rem;
-}
-
-.post-info {
-  font-size: 0.8rem;
-  color: var(--medium-text);
-}
-
-/* Individual Blog Post Pages  */
-
-.blog-content h1 {
-  font-family: 'Martel', serif; 
-  font-weight: 200;
-  font-size: 3rem;
-}
-
-.blog-content p {
-  line-height: 1.6;
-}
-
-.blog-content hr {
-  border: none;
-  border: 1px solid var(--medium);
-}
-
-
-/* Sidebar */
-.sidebar-item {
-  border: 2px solid var(--light);
-  margin-bottom: 1rem;
-  color: var(--medium-text);
-}
-.sidebar-item p {
-  font-family: 'Mulish', serif; 
-  font-weight: 300;
-}
-
-.recent-posts-nav a{
-  display: block;
-  font-weight: 300;
-}
 
 /* Miscelaneous elements  */
 
@@ -630,7 +572,6 @@ hr.short.center {
 
 .card:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-
 }
 
 
@@ -640,7 +581,31 @@ hr.short.center {
   padding: 1rem;
 }
 
+/* ------------ Seminare Page  ----------------------- */
+.seminare {
+  text-decoration: none;
+}
 
+.seminar-icon {
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  transition: 0.3s;
+}
+
+.seminar-icon-h { 
+  transition: 0.2s;
+}
+
+.seminar-icon-h:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.seminar-titel {
+  font-size: 1.1rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
 
 /* ------------ Responsive Styles ----------------------- */
 
