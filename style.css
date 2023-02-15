@@ -266,8 +266,22 @@ p a:hover {
     font-weight: 200;
 }
 
+.button-light { 
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 200;
+}
+
 .button:hover {
     color: var(--dark);
+}
+
+.button-light:hover {
+  color: var(--light);
 }
 
 .subtle-button {
