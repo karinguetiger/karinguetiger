@@ -8,6 +8,19 @@ seo:
   twitter_card:
   keywords:
   hide-from-google: false
+events:
+  - title: ThetaHealing®
+    subtitle: Basis DNA 1
+    datum: Mo. 13.04.2024 - Mi. 15.04.2024
+    anmelden: https://www.google.ch
+  - title: ThetaHealing®
+    subtitle: Basis DNA 2
+    datum: Mo. 01.04.2024 - Mi. 27.04.2024
+    anmelden: https://www.google.ch
+  - title: ThetaHealing®
+    subtitle: Grabe Tiefer
+    datum: Di 12.04.2024 - Mi. 31.04.2024
+    anmelden: https://www.google.ch
 ---
 
 <section class="bg-dark">
@@ -91,4 +104,50 @@ seo:
       <a href="/aromatherapie.html" class="button margin-l-2"> Erfahre mehr </a>
     </div>
   </section>
+</section>
+
+
+<section class="bg-medium">
+  <section class="capped-width grid-spaceAround-middle center padded">
+      <div class="col-12 margin-b-2">
+        <h2> Aktuelles </h2>
+      </div>
+    
+      {% for event in page.events %}
+
+      <div class="col-4 padded-1">
+        <p> {{ event.datum }} </p>
+      </div>
+
+      <div class="col-4 padded-1">
+        <p> {{ event.title }} </p>
+        <p> {{ event.subtitle }} </p>
+      </div>
+
+      <div class="col-4 padded-1">
+        <a href="{{event.anmelden}}" target="_blank"> anmelden </a>
+      </div>
+
+      {% endfor %}
+
+      <div class="col-12">
+        <a href="/kalender.html" class="button margin-t-2"> Kalender </a>
+      </div>
+
+  </section>
+</section>
+
+
+<section class="capped-width grid-spaceAround-middle center padded">
+
+  <div class="col-6 padded">
+    <h2> Über mich </h2>
+    <p> „Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." </p>
+    <a href="/ueber-mich.html" class="button"> Erfahre mehr </a>
+  </div>
+
+  <div class="col-6 padded">
+    <img src="/images/index/index-um.png">
+  </div>
+
 </section>
