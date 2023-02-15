@@ -44,6 +44,7 @@ section { position: relative; }
 .padded-05 { padding: 0.5rem; }
 .padded-1  { padding: 1rem; }
 .padded-2  { padding: 2rem; }
+.padded-19 { padding: 1.5rem; }
 
 .padded-t  { padding-top: 5%; }
 .padded-b  { padding-bottom: 5%; }
@@ -74,6 +75,8 @@ section { position: relative; }
 .margin-b { margin-bottom: 5%; }
 .margin-l { margin-left: 5%; }
 .margin-r { margin-right: 5%; }
+
+.margin-b-02 { margin-bottom: 0.2rem; }
 
 .margin-t-05 { margin-top: 0.5rem; }
 .margin-b-05 { margin-bottom: 0.5rem; }
@@ -224,7 +227,7 @@ p:last-child {
 .text-featured  { color: var(--featured-text);}
 .text-light     { color: var(--light-text);}
 .subtle         { opacity: 0.8;     }
-.subtitle       { font-size: 0.8rem; }
+.subtitle       { font-size: 1.2rem; }
 
 .white-text     { color: white; }
 .dark-text      { color: var(--dark-text)}
@@ -238,11 +241,25 @@ p:last-child {
   font-weight: 200; 
 }
 
+.quote-um {
+  font-size: 1rem; 
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight: 200; 
+  font-style: italic
+}
+
 
 /* ------------ Buttons & Links ------------ */
 a {
     color: inherit;
 }
+
+.index-icon {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+.no-deco { text-decoration: none;}
 
 a:hover {
   color: var(--dark); 
@@ -555,12 +572,6 @@ footer nav a{
 .recent-posts-nav a{
   display: block;
   font-weight: 300;
-}
-
-/* Social Share Nav  */
-
-.social-share a {
-  padding: 0.25rem 0.5rem;
 }
 
 /* Miscelaneous elements  */
