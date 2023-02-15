@@ -18,6 +18,7 @@ img { max-width: 100%; height: auto; }
 section { position: relative; }
 
 .relative { position: relative; }
+.block   { display: block; }
 
 
 /* ---------- Negative Space Utility Classes  ------------------ */ 
@@ -321,6 +322,30 @@ nav a:hover {
   text-decoration: none;
   font-size: 2.5rem;
 } 
+
+footer nav a{
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.i-d a{
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.i-d {
+  margin-top: 1rem;
+}
+
+.email {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.email-impr:hover {
+  color: var(--dark)
+}
 
 
 /* Dropdown styles */
