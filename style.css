@@ -265,6 +265,9 @@ a {
 a:hover {
   color: var(--dark); 
 }
+.button.hover-white:hover {
+  color: white; 
+}
 
 p a {
     text-decoration: none;
@@ -522,11 +525,12 @@ hr.short {
   border: 1px solid var(--dark-text);
   width: 2rem;
   margin: 1rem 0;
+  text-align: center;
 }
 
 hr.short.center {
   margin:auto;
-  margin: 1rem auto;
+  margin: 2rem auto;
 }
 
 
