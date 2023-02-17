@@ -113,6 +113,8 @@ section { position: relative; }
 .bg-green    { background-color: #BAE5D6; }
 .bg-white    { background-color: white; }
 
+.window { border-radius: 50rem 50rem 0rem 0; }
+
 .bg-image {
     background-color: var(--light); /* Set a fall-back color while images are loading */ 
     background-image: url('https://source.unsplash.com/8Ogfqvw15Rg/1600x1600');
@@ -229,6 +231,10 @@ p:last-child {
 .text-light     { color: var(--light-text);}
 .subtle         { opacity: 0.8;     }
 .subtitle       { font-size: 1.2rem; }
+.special-p  {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.2rem;
+}
 
 .white-text     { color: white; }
 .dark-text      { color: var(--dark-text)}
@@ -333,7 +339,7 @@ nav a {
     padding: 0.25rem 0.5rem;
     display: inline-block;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 200;
 }
 nav a:hover {
   color: var(--dark);
@@ -611,6 +617,13 @@ hr.short.center {
   text-decoration: none;
 }
 
+.seminar-titel-2 {
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
 /* ------------ Responsive Styles ----------------------- */
 
 /* General CSS Responsive Styles (Apply everywhere unless overriden) */ 
@@ -699,7 +712,10 @@ hr.short.center {
       padding-right: 1rem;
     }
     
-
+    .seminar-img {
+      padding: 1rem;
+      max-width: 80%;
+    }
     
     .mob-padded-0 {
       padding-left: 0;
@@ -712,5 +728,7 @@ hr.short.center {
     h4 { 
       font-size: 1rem;
      }
+
+     .xs-padded-b-1 { padding-bottom: 1rem; }
 
 }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    {% include head.html %}
+    
+</head>
+
+<body>
+
+    {% include inline-styles.html %}
+    
+    {% include site-header.html %}
+
+    <section class="bg-light padded-1">
+    </section>
+
+    {% for seminar in page.seminar %}
+
+    <section class="capped-width-v-narrow grid-spaceAround-middle center padded">
+        <div class="col-6_xs-12">
+            <img src="{{ seminar.image }}" class="seminar-img">
+        </div>
+        <div class="col-6_xs-12">
+            <h2 class="seminar-titel-2"> ThetaHealing® </h2>
+            <h2 class="xs-padded-b-1"> {{ seminar.titel }} </h2>
+        </div>
+    </section>
+
+
+
+    {% endfor %}
+
+
+
+
+    {{content}}
+
+    {% include site-footer.html %}
+
+    <!-- Javascript  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/main.js"></script>
+
+</body>
+
+</html>
