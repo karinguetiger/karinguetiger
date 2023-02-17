@@ -216,6 +216,17 @@ p, li {
   font-size: 1rem;
 }
 
+ul, ol {
+  /* list-style-position: inside; */
+  margin-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
+
 h2:last-child, 
 h3:last-child, 
 h4:last-child, 

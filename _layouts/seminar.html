@@ -13,8 +13,7 @@
     
     {% include site-header.html %}
 
-    <section class="bg-light padded-1">
-    </section>
+    <section class="bg-light padded-1 show-xs">  </section>
 
     {% for seminar in page.seminar %}
 
@@ -32,10 +31,22 @@
 
     {% endfor %}
 
-
-
-
     {{content}}
+
+    {% for seminar in page.seminar %}
+
+    <section class="capped-width-v-narrow padded padded-t-0">
+        <p> Voraussetzungen: {{ seminar.voraussetzungen }}</p>
+        <p> Ort: Lindenstrasse 6B, 6330 Cham </p>
+    </section>
+
+    {% endfor %}
+
+    <section class="bg-green">
+        <section class="capped-width-v-narrow padded-2 center">
+            <a href="/kalender.html" class="button"> zum Kalender </a>
+        </section>
+    </section>
 
     {% include site-footer.html %}
 
