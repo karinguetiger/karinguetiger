@@ -635,6 +635,15 @@ hr.short.center {
   text-decoration: none;
 }
 
+
+.kalender-section:nth-child(even) {
+  background-color: var(--light);
+}
+
+.kalender-icon {
+  border-radius: 100%;;
+}
+
 /* ------------ Responsive Styles ----------------------- */
 
 /* General CSS Responsive Styles (Apply everywhere unless overriden) */ 
@@ -733,6 +742,13 @@ hr.short.center {
       padding-right: 0;
     }
 
+
+    h2 {
+      font-size: 1.4rem;
+      }
+      .emphasis {
+      font-size: 0.9rem;
+      }
     h3 { 
       font-size: 1.1rem;
      }
@@ -741,5 +757,7 @@ hr.short.center {
      }
 
      .xs-padded-b-1 { padding-bottom: 1rem; }
+
+
 
 }

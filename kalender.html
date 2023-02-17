@@ -1,0 +1,78 @@
+---
+layout: default
+title: Seminarkalender ThetaSoul by Karin Gütiger
+seo:
+  title: Seminarkalender | ThetaHealing® Seminare
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
+events:
+  - title: Basis DNA
+    theme: ThetaHealing®
+    datum: Do. 03.11.2022 - Fr. 04.11.2022
+    zeit: 16:00 - 21:30 Uhr
+    image: icons/seminare-rund/basic.png
+    url: /basis-dna.html
+    anmelden: /
+  - title: Aufbau DNA
+    theme: ThetaHealing®
+    datum: Do. 03.11.2022 - Fr. 04.11.2022
+    zeit: 16:00 - 21:30 Uhr
+    image: icons/seminare-rund/advanced.png
+    url: /aufbau-dna.html
+    anmelden: /
+  - title: Intuitive Anatomie
+    theme: Workshop
+    datum: Do. 03.11.2022 - Fr. 04.11.2022
+    zeit: 16:00 - 21:30 Uhr
+    image: icons/seminare-rund/intuitive-anatomy.png
+    url: intuitive-anatomie.html
+    anmelden: /
+  - title: Manifestieren & Überfluss
+    theme: ThetaHealing®
+    datum: Mo. 01.11.2022 - Fr. 05.11.2022
+    zeit: durchgehend
+    image: icons/seminare-rund/manifestation.png
+    url: /manifestieren-und-ueberfluss.html
+    anmelden: /
+  - title: Grabe Tiefer
+    theme: ThetaHealing®
+    datum: Mo. 05.12.2022 - Mi. 23.12.2026
+    zeit: 16:00 - 21:30 Uhr
+    image: icons/seminare-rund/dig-deeper.png
+    url: /grabe-tiefer.html
+    anmelden: /
+---
+
+<section class="bg-dark">
+    <section class="capped-width padded center white-text">
+        <h2> Seminarkalender </h2>
+        <p> - ThetaSoul by Karin Gütiger </p>
+    </section>
+</section>
+
+<section>
+{% for event in page.events %}
+
+<section class="kalender-section bg-medium">
+    <section class="capped-width-narrow text-white padded padded-b-2 padded-t-2 grid-middle-spaceBetween">
+        <div class="col-7">
+            <p class="editable margin-b-05"> {{event.theme}} </p>
+            <h2 class="editable"> {{event.title}} </h2>
+            <h3 class="emphasis editable"> {{event.datum}} </h3>
+            <p class="editable margin-b-0"> {{event.zeit}} </p>
+        </div>
+        <div class="col-3_xs-4">
+            <a href="{{event.url}}"> <img src="{{event.image}}" class="kalender-icon"> </a>
+        </div>
+        <div class="col-12-center-middle center padded-1 padded-b-0">
+            <a href="{{event.anmelden}}" class="anmelde-button-kalender"> Anmelden </a>
+        </div>
+    </section>
+</section>
+
+{% endfor %}
+
+</section>
