@@ -533,6 +533,51 @@ footer nav a{
 /* ------------ Contact Forms  ----------------------- */
 
 
+label {
+  line-height: 1.8rem;
+  color: var(--dark-text);
+  font-size: 1.2rem;
+}
+
+input, textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 2px solid var(--medium);
+
+}
+
+           
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px solid var(--dark);
+}
+
+button {
+  border: none;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-family: 'Nothing you could do', sans-serif;
+  font-size: 1.4rem;
+  color: white;
+  background-color: var(--medium);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--featured);
+}
+
+textarea {
+  height: 20vh;
+}
+
+
+
 
 
 
