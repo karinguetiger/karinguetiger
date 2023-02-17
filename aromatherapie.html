@@ -1,0 +1,40 @@
+---
+layout: default
+title: Aromatherapie
+seo:
+  title: Aromatherapie
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
+behandlungen:
+  - titel: Aromatherapie
+    icon: <i class="fa-solid fa-bottle-droplet"></i>
+---
+
+{% for behandlungen in page.behandlungen %}
+
+<section class="bg-rose">
+    <section class="capped-width grid-spaceAround-middle padded center">
+        <div class="col-4">
+            <p class="index-icon"> {{ behandlungen.icon }}</p>
+            <h2 class="tworem"> {{ behandlungen.titel }} </h2>
+        </div>
+    </section>
+</section>
+
+{% endfor %}
+
+<section class="capped-width padded grid-spaceAround-middle">
+    <div class="col-6">
+        <p> Ätherische Öle wurden schon im alten Ägypten häufig verwendet und haben eine uralte Geschichte als Heilmittel und Salbungsöle. Die ätherischen Öle von Young Living sind eine wunderbare Unterstützung im Leben und können Gemütslagen ausgleichen und Menschen aufmuntern. Gerne gebe ich hierzu weitere Informationen auf Anfrage. </p>
+    </div>
+    <div class="col-3">
+        <img src="/images/index/card-1.png">
+    </div>
+</section>
+
+<section class="bg-rose padded center">
+    <a href="https://www.myyl.com/karinguetiger" class="button" target="_blank"> Mehr erfahren </a>
+</section>
