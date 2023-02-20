@@ -1,6 +1,6 @@
 seo:
   site_name: ThetaSoul by Karin Gütiger
-  title: ThetaHealing & Familienmediation
+  title: ThetaHealing & Familienmediation ThetaSoul by Karin Gütiger
   description:
   keywords:
   social_image:
@@ -11,13 +11,13 @@ social:
   facebook_url:
   twitter_username:
 design:
-  dark-text_color: '#2E2E2E'
+  dark-text_color: '#2e2e2e'
   medium-text_color: '#5a5a5f'
   light-text_color: '#f7f5f3'
   featured-text_color: '#ff0000'
-  dark_color: '#B2917B'
-  medium_color: '#E2D2BD'
-  light_color: '#F2EDE4'
+  dark_color: '#b2917b'
+  medium_color: '#e2d2bd'
+  light_color: '#f2ede4'
   v-light_color: '#f9f9f9'
   featured_color: '#6495ed'
   accent_color: '#a74a4a'

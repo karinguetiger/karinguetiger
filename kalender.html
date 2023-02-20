@@ -54,8 +54,14 @@ events:
     image: icons/seminare-rund/dig-deeper.png
     url:   /grabe-tiefer.html
     anmelden: /
+  - title: test
+    theme: test
+    datum: test
+    zeit: test
+    image: /icons/seminare-rund/Intuitive-anatomy.png
+    url:
+    anmelden: ''
 ---
-
 <section class="bg-dark">
     <section class="capped-width padded center white-text">
         <h2> Eventkalender </h2>
@@ -77,7 +83,7 @@ events:
             <p class="editable margin-b-0"> {{event.zeit3}} </p>
         </div>
         <div class="col-3_xs-4">
-            <a href="{{event.url}}"> <img src="{{event.image}}" class="kalender-icon"> </a>
+            <a href="{{event.url}}"> <img src="{{event.image}}" class="kalender-icon" /> </a>
         </div>
         <div class="col-12-center-middle center padded-1 padded-b-0">
             <a href="{{event.anmelden}}" class="anmelde-button-kalender"> Anmelden </a>
