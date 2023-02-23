@@ -759,6 +759,14 @@ hr.short.center {
     font-size: 1.7rem;
    }
 
+   h2 {
+    font-size: 1.7rem;
+   }
+
+   iframe {
+    width: 700px;
+    height: 450px;
+  }
 
 }
 
@@ -793,6 +801,9 @@ hr.short.center {
   .sm-portrait      { padding-bottom: 125%; }
   .sm-square        { padding-bottom: 100%; }
 
+  h2 {
+    font-size: 1.5rem;
+  }
   h3 { 
     font-size: 1.2rem;
    }
@@ -808,6 +819,11 @@ hr.short.center {
   
   .apo-right {
     font-size: 2rem;
+  }
+
+  iframe {
+    width: 500px;
+    height: 350px;
   }
 
 }
@@ -862,6 +878,7 @@ hr.short.center {
      .xs-margin-l-0 { margin-left: 0; }
      .xs-padded-05 { padding: 0.5rem; }
      .xs-margin-t-1 { margin-top: 1rem; }
+     .xs-margin-t-2 { margin-top: 2rem; }
 
 
      hr.short.center {
@@ -872,6 +889,11 @@ hr.short.center {
     .email { font-size: 0.9rem; }
     .i-d a {
       font-size: 0.8rem;
+    }
+
+    iframe {
+      width: 250px;
+      height: 200px;
     }
 
 }
