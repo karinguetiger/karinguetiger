@@ -246,6 +246,7 @@ p:last-child {
 
 /* Unique Typography Styles  */
 .emphasis       { font-size: 1.2rem; font-weight: 500; }
+.emphasis-i       { font-size: 1.2rem; font-weight: 500; margin-top: 2.4rem; }
 .text-featured  { color: var(--featured-text);}
 .text-light     { color: var(--light-text);}
 .subtle         { opacity: 0.8;     }
@@ -818,6 +819,7 @@ hr.short.center {
       .emphasis {
       font-size: 0.9rem;
       }
+      .emphasis-i { font-size: 1rem;}
     h3 { 
       font-size: 1.1rem;
      }
