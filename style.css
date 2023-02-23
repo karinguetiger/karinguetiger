@@ -77,6 +77,8 @@ section { position: relative; }
 .padded-l-0 { padding-left: 0; }
 .padded-r-0 { padding-right: 0; }
 
+.padded-t-05 { padding-top: 0.5rem; }
+
 /* Margin Utility Classes */ 
 
 .margin-t { margin-top: 5%; }
@@ -626,7 +628,7 @@ hr.short.center {
 
 .apo-left {
   position: absolute;
-  left: 2rem;
+  left: 1rem;
   bottom: 3rem;
   font-size: 3rem;
   font-weight: 200; 
@@ -634,8 +636,8 @@ hr.short.center {
 
 .apo-right {
   position: absolute;
-  right: 2rem;
-  top: 1rem;
+  right: 1rem;
+  top: -0.7rem;
   font-size: 3rem;
   font-weight: 200; 
 }
@@ -734,6 +736,11 @@ hr.short.center {
 
 @media(max-width:64em) {
 
+  h1 {
+
+    font-size: 2.1rem;
+  }  
+
 	.show-md { display: block; }
 	.hide-md { display: none;  }
 
@@ -748,6 +755,11 @@ hr.short.center {
     font-size: 1.2rem;
    }
 
+   .quote {
+    font-size: 1.7rem;
+   }
+
+
 }
 
 /* ------- SM Media Query (48em / 768px) --------------- */ 
@@ -755,6 +767,10 @@ hr.short.center {
 
 
 @media(max-width:48em) {
+
+  h1 {
+    font-size: 1.7rem;
+  }  
 
 	.show-sm { display: block; }
 	.hide-sm { display: none;  }
@@ -783,6 +799,16 @@ hr.short.center {
   h4 { 
     font-size: 1.1rem;
    }
+   .quote {
+    font-size: 1.4rem;
+   }
+   .apo-left {
+    font-size: 2rem;
+  }
+  
+  .apo-right {
+    font-size: 2rem;
+  }
 
 }
 
@@ -793,6 +819,7 @@ hr.short.center {
 
 		.show-xs { display: block; }
 		.hide-xs { display: none;  }
+    .xs-center { text-align: center; }
 
     .horizontal-scroll {
       overflow-x: auto;
@@ -826,9 +853,13 @@ hr.short.center {
     h4 { 
       font-size: 1rem;
      }
+     .quote {
+      font-size: 1.2rem;
+     }
 
      .xs-padded-b-1 { padding-bottom: 1rem; }
-
+     .xs-padded-b-0 { padding-bottom: 0; }
+     .xs-margin-l-0 { margin-left: 0; }
 
 
 }
