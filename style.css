@@ -11,6 +11,14 @@
   
 img { max-width: 100%; height: auto; }
 
+iframe {
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 800px;
+  height: 500px;
+}
+
 /* Override default gridlex padding */ 
 [class*=col] { padding: 0; }
 [class*=grid] { margin: 0; }
