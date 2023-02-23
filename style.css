@@ -869,4 +869,9 @@ hr.short.center {
       margin: 1rem auto;
     }
 
+    .email { font-size: 0.9rem; }
+    .i-d a {
+      font-size: 0.8rem;
+    }
+
 }
