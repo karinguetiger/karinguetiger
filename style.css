@@ -860,6 +860,13 @@ hr.short.center {
      .xs-padded-b-1 { padding-bottom: 1rem; }
      .xs-padded-b-0 { padding-bottom: 0; }
      .xs-margin-l-0 { margin-left: 0; }
+     .xs-padded-05 { padding: 0.5rem; }
+     .xs-margin-t-1 { margin-top: 1rem; }
 
+
+     hr.short.center {
+      margin:auto;
+      margin: 1rem auto;
+    }
 
 }

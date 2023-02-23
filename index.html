@@ -121,24 +121,26 @@ events:
     
       {% for event in page.events %}
 
-      <div class="col-4 padded-1">
+      <div class="col-4_xs-12 padded-1 xs-padded-05">
         <p> {{ event.datum }} </p>
       </div>
 
-      <div class="col-4 padded-1">
+      <div class="col-4_xs-12 padded-1 xs-padded-05">
         <p class="margin-b-02"> {{ event.title }} </p>
         <p> {{ event.subtitle }} </p>
         <a href="{{ event.info }}"> mehr Info </a>
       </div>
 
-      <div class="col-4 padded-1">
+      <div class="col-4_xs-12 padded-1">
         <a href="{{event.anmelden}}" target="_blank"> anmelden </a>
       </div>
 
+      <hr class="center short show-xs">
+
       {% endfor %}
 
-      <div class="col-12">
-        <a href="/kalender.html" class="button margin-t-2"> Kalender </a>
+      <div class="col-12-middle">
+        <a href="/kalender.html" class="button margin-t-2 xs-margin-t-1"> Kalender </a>
       </div>
 
   </section>
@@ -147,13 +149,13 @@ events:
 
 <section class="capped-width grid-spaceAround-middle center">
 
-  <div class="col-6 padded">
+  <div class="col-6_xs-12 padded">
     <h2> Über mich </h2>
     <p class="editable"> „Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." </p>
     <a href="/ueber-mich.html" class="button"> Erfahre mehr </a>
   </div>
 
-  <div class="col-6 padded">
+  <div class="col-6-xs-9 padded">
     <img src="/images/index/index-um.png" />
   </div>
 
