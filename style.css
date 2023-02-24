@@ -826,6 +826,10 @@ hr.short.center {
     height: 350px;
   }
 
+  .button-light-big {
+    font-size: 1.3rem;
+  }
+
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -896,4 +900,9 @@ hr.short.center {
       height: 200px;
     }
 
+    .button-light-big {
+      font-size: 1.1rem;
+    }
+
 }
+
