@@ -11,7 +11,8 @@
   
 img { max-width: 100%; height: auto; }
 
-iframe {
+
+.pdf {
   margin: 0;
   padding: 0;
   border: none;
@@ -603,6 +604,11 @@ textarea {
   height: 20vh;
 }
 
+.Es8downQlxiASDyltHtn {
+  color: var(--text-color,rgb(26,26,26));
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
 
 
 
@@ -763,7 +769,7 @@ hr.short.center {
     font-size: 1.7rem;
    }
 
-   iframe {
+   .pdf {
     width: 700px;
     height: 450px;
   }
@@ -821,7 +827,7 @@ hr.short.center {
     font-size: 2rem;
   }
 
-  iframe {
+  .pdf {
     width: 500px;
     height: 350px;
   }
@@ -895,7 +901,7 @@ hr.short.center {
       font-size: 0.8rem;
     }
 
-    iframe {
+    .pdf {
       width: 250px;
       height: 200px;
     }
