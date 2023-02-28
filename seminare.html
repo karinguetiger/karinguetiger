@@ -10,46 +10,46 @@ seo:
   hide-from-google: false
 seminare:
   - title: Basis DNA
-    icon: /icons/basic.png
+    image: /icons/basic.png
     link: /basis-dna.html
   - title: Aufbau DNA
-    icon: /icons/advanced.png
+    image: /icons/advanced.png
     link: /aufbau-dna.html
   - title: Grabe Tiefer
-    icon: /icons/dig-deeper.png
+    image: /icons/dig-deeper.png
     link: /grabe-tiefer.html
   - title: Du & Gott
-    icon: /icons/du-und-gott.png
+    image: /icons/du-und-gott.png
     link: /du-und-gott.html
   - title: Du & dein innerer Kreis
-    icon: /icons/growing-your-relationship-3-you-and-your-inner-circle.png
+    image: /icons/growing-your-relationship-3-you-and-your-inner-circle.png
     link: /du-und-dein-innerer-kreis.html
   - title: Entwickle deine Beziehung
-    icon: /icons/growing-your-relationship-1-you-and-your-significant-others.png
+    image: /icons/growing-your-relationship-1-you-and-your-significant-others.png
     link: /entwickle-deine-beziehung.html
   - title: Intuitive Anatomie
-    icon: /icons/intuitive-anatomy.png
+    image: /icons/intuitive-anatomy.png
     link: /intuitive-anatomie.html
   - title: Weltenbeziehungen
-    icon: /icons/world-relations.png
+    image: /icons/world-relations.png
     link: /weltenbeziehungen.html
   - title: Manifestieren & Überfluss
-    icon: /icons/manifesting.png
+    image: /icons/manifesting.png
     link: /manifestieren-und-ueberfluss.html
   - title: Pflanzen
-    icon: /icons/plant.png
+    image: /icons/plant.png
     link: /pflanzen.html
   - title: Tiere
-    icon: /icons/animal.png
+    image: /icons/animal.png
     link: /tiere.html
   - title: Seelenpartner
-    icon: /icons/soul-mate.png
+    image: /icons/soul-mate.png
     link: /seelenpartner.html
   - title: Rhythm
-    icon: /icons/rhythm.png
+    image: /icons/rhythm.png
     link: /rhythm.html
   - title: Regenbogenkinder
-    icon: /icons/rainbow.jpg
+    image: /icons/rainbow.jpg
     link: /regenbogenkinder.html
 ---
 <section class="bg-green">
@@ -81,7 +81,7 @@ seminare:
         <section class="padded-1 capped-width-narrow grid-spaceAround-middle">
 
             {% for seminare in page.seminare %}
-            <div class="col-3_sm-4_xs-10 seminar-icon-h"> <a href="{{seminare.link}}" class="seminare"> <img src="{{seminare.icon}}" class="seminar-icon" /> <h3 class="seminar-titel">{{seminare.title}}</h3> </a> </div>
+            <div class="col-3_sm-4_xs-10 seminar-icon-h"> <a href="{{seminare.link}}" class="seminare"> <img src="{{seminare.image}}" class="seminar-icon" /> <h3 class="seminar-titel">{{seminare.title}}</h3> </a> </div>
             {% endfor %}
 
     </section>
