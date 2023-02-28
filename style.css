@@ -531,7 +531,7 @@ footer nav a{
   .mobile-menu a {
     font-size: 1.1rem;
     font-family: 'poppins', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     text-decoration: none; 
     color: inherit; 
     padding: 0.2rem;
@@ -904,8 +904,8 @@ hr.short.center {
     }
 
     .pdf {
-      width: 250px;
-      height: 200px;
+      width: 270px;
+      height: 246px;
     }
 
     .button-light-big {
