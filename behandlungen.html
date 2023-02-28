@@ -8,6 +8,25 @@ seo:
   twitter_card:
   keywords:
   hide-from-google: false
+behandlungen:
+  - title: ThetaHealing®
+    link: /thetahealing.html
+    icon: <i class="fa-solid fa-heart"></i>
+  - title: Raindrop Massage
+    link: /raindrop-massage.html
+    icon:  <i class="fa-solid fa-spa"></i> 
+  - title: Emotional Release
+    link: /emotional-release.html
+    icon: <i class="fa-brands fa-pagelines"></i>
+  - title: Crystal Layout
+    link: /crystal-layout.html
+    icon: <i class="fa-solid fa-gem"></i> 
+  - title: Aromatherapie
+    link: /aromatherapie.html
+    icon: <i class="fa-solid fa-bottle-droplet"></i>
+  - title: Goddess Revolution
+    link: /goddess-revolution.html
+    icon: <i class="fa-solid fa-hands-praying"></i>
 ---
 <section class="bg-rose">
     <section class="capped-width padded center">
@@ -30,41 +49,13 @@ seo:
 
 <section class="bg-rose">
     <div class="grid-spaceAround padded text-white center capped-width">
+        {% for behandlungen in page.behandlungen %}
         <div class="col-4_sm-6_xs-12 padded-19">
-            <a href="/thetahealing.html" class="no-deco">
-                <p class="index-icon"><i class="fa-solid fa-heart"></i></p>
-                <h2 class="tworem"> ThetaHealing® </h2>
+            <a href="{{behandlungen.link}}" class="no-deco">
+                <p class="index-icon">{{behandlungen.icon}}</p>
+                <h2 class="tworem"> {{behandlungen.title}} </h2>
             </a>
         </div>
-        <div class="col-4_sm-6_xs-12 padded-19">
-            <a href="/raindrop-massage.html" class="no-deco">
-                <p class="index-icon"> <i class="fa-solid fa-spa"></i> </p>
-                <h2 class="tworem"> Raindrop Massage </h2>
-            </a>
-        </div>
-        <div class="col-4_sm-6_xs-12 padded-19">
-            <a href="/emotional-release.html" class="no-deco">
-                <p class="index-icon"> <i class="fa-brands fa-pagelines"></i> </p>
-                <h2 class="tworem"> Emotional Release </h2>
-            </a>
-        </div>
-        <div class="col-4_sm-6_xs-12 padded-19">
-            <a href="/crystal-layout.html" class="no-deco">
-                <p class="index-icon"> <i class="fa-solid fa-gem"></i> </p>
-                <h2 class="tworem"> Crystal Layout </h2>
-            </a>
-        </div>
-        <div class="col-4_sm-6_xs-12 padded-19">
-            <a href="/aromatherapie.html" class="no-deco">
-                <p class="index-icon"><i class="fa-solid fa-bottle-droplet"></i></p>
-                <h2 class="tworem"> Aromatherapie </h2>
-            </a>
-        </div>
-        <div class="col-4_sm-6_xs-12 padded-19">
-            <a href="/goddess-revolution.html" class="no-deco">
-                <p class="index-icon"> <i class="fa-solid fa-hands-praying"></i> </p>
-                <h2 class="tworem"> Goddess Revolution </h2>
-            </a>
-        </div>
+        {% endfor %}
     </div>
 </section>
