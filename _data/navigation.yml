@@ -1,0 +1,30 @@
+main:
+- link: /
+  name: Start
+- link: /ueber-mich.html
+  name: Über mich
+- link: /behandlungen.html
+  name: Behandlungen
+- link: /familienmediation.html
+  name: Familienmediation
+- link: /seminare.html
+  name: Seminare
+- link: /kalender.html
+  name: Kalender
+- link: /temrin-buchen.html
+  name: Termin buchen
+- link: /kontakt.html
+  name: Kontakt
+dropdown:
+- link: /thetahealing.html
+  name: ThetaHealing®
+- link: /raindrop-massage.html
+  name: Raindrop Massage
+- link: /emotional-release.html
+  name: Emotional Release
+- link: /crystal-layout.html
+  name: Crystal Layout
+- link: /aromatherapie.html
+  name: Aromatherapie
+- link: /goddess-revolution.html
+  name: Goddess Revolution
