@@ -1,5 +1,5 @@
 ---
-layout: behandlungen
+layout: default
 title: ThetaHealing®
 seo:
   title: ThetaHealing®
@@ -12,6 +12,20 @@ behandlungen:
   - titel: ThetaHealing®
     icon: <i class="fa-solid fa-heart"></i>
 ---
+
+{% for behandlungen in page.behandlungen %}
+
+<section class="bg-rose">
+    <section class="capped-width grid-spaceAround-middle padded center">
+        <div class="col-12">
+            <p class="index-icon"> {{ behandlungen.icon }}</p>
+            <h2 class="tworem"> {{ behandlungen.titel }} </h2>
+        </div>
+    </section>
+</section>
+
+{% endfor %}
+
 <section class="capped-width padded grid-spaceAround-middle">
     <div class="col-6_xs-10">
         <p class="editable"> Theta Healing® wurde 1995 in der USA von Vienna Stibal durch ihre eigene Lebensgeschichte begründet. </p>
@@ -31,5 +45,34 @@ behandlungen:
         <p class="emphasis editable">
             CHF 120.00/pro Stunde - Barzahlung oder via Twint
         </p>
+    </section>
+</section>
+<section class="bg-rose">
+    <section class="capped-width-v-narrow padded-2 center">
+        <a href="/termin-buchen.html" class="button"> Termin buchen </a>
+    </section>
+</section>
+
+<section class="capped-width padded padded-b-1">
+    <h2 class="editable"> Übungsmorgen ThetaHealing® </h2>
+    <p> Dieser Morgen gibt die wunderbare Möglichkeit, in den Austausch mit anderen zu kommen, zu graben, sich auszutauschen und loszulassen, was gerade bereit ist. </p>
+    <p> Wir treffen uns vor Ort in Cham oder via Zoom. </p>
+    <p class="emphasis editable"> Zeit: 09.30 Uhr - 11.30 Uhr </p>
+    <hr class="short left" />
+    <p class="emphasis editable">
+        Austausch: CHF 35.00 - Barzahlung oder via Twint
+    </p>
+    <p> Voraussetzung: Basis DNA </p>
+</section>
+
+<section class="bg-rose">
+    <section class="capped-width padded padded-b-1">
+        <h2 class="editable"> Infoabend Theta Healing® - kostenlos </h2>
+        <p> Erfahre mehr über die Theta Healing® Technik und was alles daraus entstehen kann. Jeder Infoabend ist speziell einem Thema gewidmet, beinhaltet ein Demograben, wie man blockierende Glaubenssätze verändert, und eine Meditation. </p>
+        <p> Wir treffen uns vor Ort in Cham oder via Zoom. </p>
+        <p class="emphasis editable"> Zeit: 19.00 Uhr - 20.30 Uhr </p>
+    </section>
+    <section class="capped-width-v-narrow padded-2 center">
+        <a href="/kalender.html" class="button"> Zum Kalender </a>
     </section>
 </section>
