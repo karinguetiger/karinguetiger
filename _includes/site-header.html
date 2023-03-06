@@ -59,12 +59,11 @@
     <a href="/ueber-mich"> Über mich </a>
     <a href="/behandlungen"> Behandlungen </a>
     <div class="dropdown-content-mobile">
-      <a href="/thetahealing.html"> ThetaHealing® </a>
-      <a href="/raindrop-massage.html"> Raindrop Massage </a>
-      <a href="/emotional-release.html"> Emotional Release </a>
-      <a href="/crystal-layout.html"> Crystal Layout </a>
-      <a href="/aromatherapie.html"> Aromatherapie </a>
-      <a href="/goddess-revolution.html"> Goddess Revolution </a>
+      {% for item in site.data.navigation.dropdown %}
+
+      <a href="{{ item.link }}" {% if item.link == page.url %}class="active"{% endif %}> {{ item.name }} </a>
+
+      {% endfor %}
     </div>
     <a href="/familienmediation"> Familienmediation </a>
     <a href="/seminare"> Seminare </a>
