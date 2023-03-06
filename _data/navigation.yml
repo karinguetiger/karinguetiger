@@ -1,20 +1,3 @@
-main:
-- link: /
-  name: Start
-- link: /ueber-mich.html
-  name: Über mich
-- link: /behandlungen.html
-  name: Behandlungen
-- link: /familienmediation.html
-  name: Familienmediation
-- link: /seminare.html
-  name: Seminare
-- link: /kalender.html
-  name: Kalender
-- link: /temrin-buchen.html
-  name: Termin buchen
-- link: /kontakt.html
-  name: Kontakt
 dropdown:
 - link: /thetahealing.html
   name: ThetaHealing®

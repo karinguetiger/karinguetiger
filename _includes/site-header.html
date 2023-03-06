@@ -8,25 +8,12 @@
 <div class="bg-light col-12">
   <nav class="hide-md padded-05">
 
-      {% for item in site.data.navigation.main %}
+          
+          
+         
 
-      <a href="{{ item.link }}" {% if item.link == page.url %}class="active"{% endif %}>
-      {{ item.name }}  </a>
   
-      {% endfor %}
 
-      {% for item in site.data.navigation.dropdown %}
-
-      <div class="dropdown"> 
-        <a href="/behandlungen.html" class="dropdown-title"> </a>
-        <div class="dropdown-content">
-          <a href="{{ item.link }}" {% if item.link == page.url %}class="active"{% endif %}>
-            {{ item.name }} </a>
-        </div>
-      </div>
-
-
-      {% endfor %}
 
 
 
@@ -35,12 +22,11 @@
       <div class="dropdown">
         <a href="/behandlungen" class="dropdown-title"> Behandlungen </a>
         <div class="dropdown-content">
-          <a href="/thetahealing.html"> ThetaHealing® </a>
-          <a href="/raindrop-massage.html"> Raindrop Massage </a>
-          <a href="/emotional-release.html"> Emotional Release </a>
-          <a href="/crystal-layout.html"> Crystal Layout </a>
-          <a href="/aromatherapie.html"> Aromatherapie </a>
-          <a href="/goddess-revolution.html"> Goddess Revolution </a>
+          {% for item in site.data.navigation.dropdown %}
+
+          <a href="{{ item.link }}" {% if item.link == page.url %}class="active"{% endif %}> {{ item.name }} </a>
+
+          {% endfor %}
         </div>
       </div>
       <a href="/familienmediation"> Familienmediation </a>
