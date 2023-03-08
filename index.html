@@ -129,7 +129,7 @@ events:
         <h2> Aktuelles </h2>
       </div>
     
-      {% for event in page.events %}
+      {% for event in site.data.events.events limit:3 %}
 
       <div class="col-4_xs-12 padded-1 xs-padded-05">
         <p> {{ event.datum }} </p>
