@@ -398,6 +398,12 @@ footer nav a{
   font-size: 1rem;
 }
 
+.adresse-footer {
+  position: absolute;
+  left: 2rem;
+  bottom: 2rem;
+}
+
 .i-d a{
   font-weight: 300;
   font-size: 1rem;
@@ -411,6 +417,12 @@ footer nav a{
   font-size: 1.2rem;
   font-weight: 500;
   text-decoration: none;
+  color:rgba(0, 0, 0, 0.6)
+}
+
+.tel {
+  text-decoration: none;
+  border-bottom: 0;
 }
 
 .email-impr:hover {
