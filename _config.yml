@@ -1,3 +1,7 @@
+url: "https://thetasoul.ch" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
+
 collections:
   posts:
     output: true
@@ -29,3 +33,4 @@ _options:
     strike: true
     image: true
     
+
