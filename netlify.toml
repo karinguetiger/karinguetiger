@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "https://karinguetiger.ch/*"
+  to = "https://www.thetasoul.ch/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.karinguetiger.ch/*"
+  to = "https://www.thetasoul.ch/:splat"
+  status = 301
+  force = true
