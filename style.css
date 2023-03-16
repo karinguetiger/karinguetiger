@@ -366,6 +366,21 @@ p a:hover {
 
 /* ------------ Header & Hamburger Menu -------------- */
 
+.pajurama-logo {
+  width: 6rem;
+  border-bottom: none;
+}
+
+
+
+.pajurama-logo-position {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  text-align: left;
+}
+
+
 .header-logo-mobile {
   position: absolute;
   top: 1.5rem;
@@ -760,6 +775,10 @@ hr.short.center {
 
 @media(max-width:64em) {
 
+  .md-right {
+    text-align: right;
+  }
+
   h1 {
 
     font-size: 2.1rem;
@@ -799,6 +818,18 @@ hr.short.center {
 
 
 @media(max-width:48em) {
+
+  .pajurama-logo-position {
+    bottom: 0.5rem;
+    font-size: 0.9rem;
+
+  }
+
+  .pajurama-logo {
+    width: 5rem;
+  }
+
+  .size-09 { font-size: 0.9rem;}
 
   h1 {
     font-size: 1.7rem;
