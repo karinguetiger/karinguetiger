@@ -1,6 +1,6 @@
 events:
-  - title: ''
-    theme: Wellnessabend mit ätherischen Ölen
+  - title: Wellnessabend mit ätherischen Ölen
+    theme:
     datum: 7. April 2023
     zeit1: 19.00 - ca. 20.30 Uhr
     zeit2: 'Austauch: CHF 35.00'
@@ -10,13 +10,13 @@ events:
     anmelden: ''
   - title: Du und dein innerer Kreis
     theme: Theta Healing®
-    datum: 8. - 9. April 2023
+    datum: Fr. 8. -  Sa. 9. April 2023
     zeit1: 09.30 Uhr - ca. 16 Uhr
     zeit2:
     zeit3:
     image: /icons/seminare-rund/Du-und-dein-innerer-kreis.png
     url: ''
-    anmelden: ''
+    anmelden: https://www.thetahealing.com/seminar-278474-details.html
   - title: Rythm - zu einem Perfekten Körpergewicht
     theme: ThetaHealing®
     datum: So. 30.04.2023
