@@ -1,4 +1,13 @@
 events:
+  - title: Du und dein innerer Kreis
+    theme: Theta Healing®
+    datum: 8. - 9. April 2023
+    zeit1: 09.30 Uhr - ca. 16 Uhr
+    zeit2:
+    zeit3:
+    image: /icons/seminare-rund/Du-und-dein-innerer-kreis.png
+    url: ''
+    anmelden: ''
   - title: Rythm - zu einem Perfekten Körpergewicht
     theme: ThetaHealing®
     datum: So. 30.04.2023
@@ -8,15 +17,6 @@ events:
     image: /icons/seminare-rund/rhythm.png
     url: /rhythm.html
     anmelden: https://www.thetahealing.com/seminar-276534-details.html
-  - title: Theta Healing®
-    theme: Du und dein innerer Kreis
-    datum: 8. - 9. April 2023
-    zeit1: 09.30 Uhr - ca. 16 Uhr
-    zeit2:
-    zeit3:
-    image: /icons/seminare-rund/Du-und-dein-innerer-kreis.png
-    url: ''
-    anmelden: ''
   - title: ''
     theme: Wellnessabend mit ätherischen Ölen
     datum: 7. April 2023
