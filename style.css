@@ -408,6 +408,10 @@ nav a:hover {
   font-size: 2.5rem;
 } 
 
+.fa-brands {
+  font-size: 1.5rem;
+}
+
 footer nav a{
   font-weight: 200;
   font-size: 1rem;
@@ -883,6 +887,10 @@ hr.short.center {
 
   .button-light-big {
     font-size: 1.3rem;
+  }
+
+ .sm-09 p {
+    font-size: 0.9rem; 
   }
 
 }
