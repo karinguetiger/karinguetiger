@@ -17,3 +17,12 @@ events:
     image: /icons/seminare-rund/Du-und-dein-innerer-kreis.png
     url: ''
     anmelden: ''
+  - title: ''
+    theme: Wellnessabend mit ätherischen Ölen
+    datum: 7. April 2023
+    zeit1: 19.00 - ca. 20.30 Uhr
+    zeit2: 'Austauch: CHF 35.00'
+    zeit3:
+    image: /images/index/raindrop-massage.jpg
+    url: ''
+    anmelden: ''
