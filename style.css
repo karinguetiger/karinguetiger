@@ -13,6 +13,10 @@
   
 img { max-width: 100%; height: auto; }
 
+html {
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
 
 .pdf {
   margin: 0;
