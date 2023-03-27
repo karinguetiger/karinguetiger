@@ -1,31 +1,4 @@
 events:
-  - title: Wellnessabend mit ätherischen Ölen
-    theme:
-    datum: 28. April 2023
-    zeit1: 19.00 - ca. 20.30 Uhr
-    zeit2: 'Austauch: CHF 35.00'
-    zeit3:
-    image: /images/index/raindrop-massage.jpg
-    url: /wellnessabend-mit-aetherischen-oelen.html
-    anmelden: https://www.thetasoul.ch/kontakt.html
-  - title: Du und dein innerer Kreis
-    theme: Theta Healing®
-    datum: Sa. 27. -  So. 28. Mai 2023
-    zeit1: 09.30 Uhr - ca. 16 Uhr
-    zeit2:
-    zeit3:
-    image: /icons/seminare-rund/Du-und-dein-innerer-kreis.png
-    url: /du-und-dein-innerer-kreis.html
-    anmelden: https://www.thetahealing.com/seminar-278474-details.html
-  - title: Rythm - zu einem Perfekten Körpergewicht
-    theme: ThetaHealing®
-    datum: So. 30.04.2023
-    zeit1: 09:30 Uhr - ca 15:00 Uhr
-    zeit2:
-    zeit3:
-    image: /icons/seminare-rund/rhythm.png
-    url: /rhythm.html
-    anmelden: https://www.thetahealing.com/seminar-276534-details.html
   - title: Übungsmorgen Theta Healing®
     theme: vor Ort oder per Zoom
     datum: So. 16. April 2023
@@ -35,3 +8,30 @@ events:
     image: /images/index/card-3.png
     url: thetahealing.html
     anmelden: https://www.thetasoul.ch/kontakt.html
+  - title: Wellnessabend mit ätherischen Ölen
+    theme:
+    datum: 28. April 2023
+    zeit1: 19.00 - ca. 20.30 Uhr
+    zeit2: 'Austauch: CHF 35.00'
+    zeit3:
+    image: /images/index/raindrop-massage.jpg
+    url: /wellnessabend-mit-aetherischen-oelen.html
+    anmelden: https://www.thetasoul.ch/kontakt.html
+  - title: Rythm - zu einem Perfekten Körpergewicht
+    theme: ThetaHealing®
+    datum: So. 30.04.2023
+    zeit1: 09:30 Uhr - ca 15:00 Uhr
+    zeit2:
+    zeit3:
+    image: /icons/seminare-rund/rhythm.png
+    url: /rhythm.html
+    anmelden: https://www.thetahealing.com/seminar-276534-details.html
+  - title: Du und dein innerer Kreis
+    theme: Theta Healing®
+    datum: Sa. 27. -  So. 28. Mai 2023
+    zeit1: 09.30 Uhr - ca. 16 Uhr
+    zeit2:
+    zeit3:
+    image: /icons/seminare-rund/Du-und-dein-innerer-kreis.png
+    url: /du-und-dein-innerer-kreis.html
+    anmelden: https://www.thetahealing.com/seminar-278474-details.html
