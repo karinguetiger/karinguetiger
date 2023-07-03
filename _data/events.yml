@@ -1,4 +1,13 @@
 events:
+  - title: Übungsmorgen - vor Ort/Zoom
+    theme: Theta Healing®
+    datum: 9. Juli 2023
+    zeit1: 09.30 Uhr - ca. 11.30 Uhr
+    zeit2: 'Austausch: CHF 35.00'
+    zeit3:
+    image: /images/index/card-1.png
+    url:
+    anmelden: https://www.thetasoul.ch/kontakt
   - title: Du und die Erde
     theme: Theta Healing®
     datum: Sa. 19. August  - So. 20.  August 2023
@@ -8,12 +17,12 @@ events:
     image: /icons/seminare-rund/Du-und-die-erde.png
     url: /thetahealing-du-die-erde-seminar.html
     anmelden: https://www.thetahealing.com/seminar-293707-details.html
-  - title: Übungsmorgen - vor Ort/Zoom
-    theme: Theta Healing®
-    datum: 9. Juli 2023
-    zeit1: 09.30 Uhr - ca. 11.30 Uhr
-    zeit2: 'Austausch: CHF 35.00'
+  - title: Die Urkraft der Weiblichkeit
+    theme: eine 12 Wochen Begleitung
+    datum: 16. Oktober 2022 - 7. Januar 2024
+    zeit1:
+    zeit2:
     zeit3:
-    image: /images/index/card-1.png
-    url:
+    image: /uploads/pajuramacopyright-42.jpg
+    url: /Kopie-von-Urkraft-der-Weiblichkeit.zip
     anmelden: https://www.thetasoul.ch/kontakt
