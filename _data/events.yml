@@ -49,7 +49,7 @@ events:
     datum: So. 1. Oktober  - Mo. 2. Oktober 2023
     zeit1: 09.00 Uhr - ca. 15.30 Uhr
     zeit2:
-    zeit3:
+    zeit3: ' '
     image: /icons/seminare-rund/Du-und-gott.png
     url: /thetahealing-du-und-gott.html
     anmelden: https://www.thetahealing.com/seminar-296752-details.html
