@@ -771,6 +771,27 @@ hr.short.center {
   border-radius: 100%;;
 }
 
+#mlb2-7299224.ml-form-embedContainer .ml-form-embedWrapper {
+  background-color: var(--light) !important;
+}
+
+#mlb2-7299224.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4, #mlb2-7299224.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4, p {
+  font-family: 'Noto Serif JP', sans-serif !important;
+  font-weight: 200;
+}
+
+#mlb2-7299224.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+#mlb2-7299224.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
+  font-family: 'Noto Serif JP', sans-serif !important;
+  background-color: none !important;
+  border: 1px solid var(--dark-text) !important;
+}
+
+
+
 /* ------------ Responsive Styles ----------------------- */
 
 /* General CSS Responsive Styles (Apply everywhere unless overriden) */ 
