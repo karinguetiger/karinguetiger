@@ -1,16 +1,7 @@
 events:
-  - title: Basis DNA vor Ort oder Online
-    theme: Theta Healing®
-    datum: Mi. 29. November  - Fr. 1. Dezember 2023
-    zeit1: 09.00 Uhr - ca. 15.30 Uhr
-    zeit2:
-    zeit3:
-    image: /icons/seminare-rund/basic.png
-    url: /basis-dna.html/
-    anmelden: https://www.thetahealing.com/seminar-296750-details.html
   - title: Aufbau DNA vor Ort oder Online
     theme: Theta Healing®
-    datum: Do. 9. November  - Sa. 11.  November 2023
+    datum: Mi. 6. Dezember  - Fr. 8  Dezember 2023
     zeit1: 09.00 Uhr - ca. 15.30 Uhr
     zeit2:
     zeit3:
@@ -35,6 +26,15 @@ events:
     image: /icons/seminare-rund/soul-mate.png
     url: /seelenpartner.html
     anmelden: https://www.thetahealing.com/seminar-300578-details.html
+  - title: Du & die Erde
+    theme: Theta Healing®
+    datum: Do. 5. Oktober  - Fr. 6. Oktober 2023
+    zeit1: 09.00 Uhr - ca. 15.30 Uhr
+    zeit2:
+    zeit3:
+    image: /icons/seminare-rund/Du-und-die-erde.png
+    url: /thetahealing-du-die-erde-seminar.html
+    anmelden: https://www.thetahealing.com/seminar-300578-details.html
   - title: Übungsmorgen - vor Ort/Zoom
     theme: Theta Healing®
     datum: 24. September 2023
@@ -53,3 +53,12 @@ events:
     image: /icons/seminare-rund/Intuitive-anatomy.png
     url: /intuitive-anatomie.html/
     anmelden: https://www.thetahealing.com/seminar-297237-details.html
+  - title: Basis DNA vor Ort oder Online
+    theme: Theta Healing®
+    datum: Mi. 29. November  - Fr. 1. Dezember 2023
+    zeit1: 09.00 Uhr - ca. 15.30 Uhr
+    zeit2:
+    zeit3:
+    image: /icons/seminare-rund/basic.png
+    url: /basis-dna.html/
+    anmelden: https://www.thetahealing.com/seminar-296750-details.html
