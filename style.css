@@ -607,7 +607,32 @@ footer nav a{
 
 
 /* ------------ Contact Forms  ----------------------- */
+select {
+  line-height: 1.8rem;
+  color: var(--dark-text);
+  font-size: 1.2rem;
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 2px solid var(--medium);
+  color: var(--dark-text);
+  background-color: white;
+}
 
+option {
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 2px solid var(--medium);
+  color: var(--dark-text);
+  background-color: white;
+}
 
 label {
   line-height: 1.8rem;
