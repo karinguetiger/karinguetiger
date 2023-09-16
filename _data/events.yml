@@ -10,8 +10,8 @@ events:
     anmelden: https://www.thetasoul.ch/termin-buchen
   - title: 'Coaching: Werde zu deinem Original '
     theme:
-    datum: ab sofort buchbar
-    zeit1: 'Dauer: 6 oder 12 Wochen'
+    datum: 'Start: jederzeit'
+    zeit1: 'Dauer: 6. - 12. Wochen'
     zeit2:
     zeit3:
     image: /images/index/card-1.png
