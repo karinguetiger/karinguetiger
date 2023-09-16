@@ -18,9 +18,9 @@ events:
     url: /coaching.html
     anmelden: https://www.thetasoul.ch/kontakt
   - title: 'Coaching: Die Urkraft der Weiblichkeit'
-    theme: '12 Wochen Unterstützung/Begleitung '
+    theme:
     datum: 'Start: jederzeit'
-    zeit1:
+    zeit1: 'Dauer: 12. Wochen'
     zeit2:
     zeit3: ' '
     image: /icons/seminare-rund/eigene-icons-4.jpg
