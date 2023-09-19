@@ -8,8 +8,8 @@ events:
     image: /images/index/energetische-behandlung.jpg
     url: /energetische-behandlungen.html
     anmelden: https://www.thetasoul.ch/termin-buchen
-  - title: 'Coaching: Werde zu deinem Original '
-    theme:
+  - title: 'Werde zu deinem Original '
+    theme: Coaching
     datum: 'Start: jederzeit'
     zeit1: 'Dauer: 6. - 12. Wochen'
     zeit2:
