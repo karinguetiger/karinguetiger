@@ -70,6 +70,8 @@ section { position: relative; }
 .padded-l  { padding-left: 5%; }
 .padded-r  { padding-right: 5%; }
 
+.padded-b-05 { padding-bottom: 0.5rem ;}
+
 .padded-tb  { padding-top: 5%; padding-bottom: 5%; }
 .padded-lr  { padding-left: 5%; padding-right: 5%; }
 
