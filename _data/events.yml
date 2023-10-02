@@ -8,15 +8,6 @@ events:
     image: /images/index/energetische-behandlung.jpg
     url: /energetische-behandlungen.html
     anmelden: https://www.thetasoul.ch/termin-buchen
-  - title: 'Werde zu deinem Original '
-    theme: Coaching
-    datum: 'Start: jederzeit'
-    zeit1: 'Dauer: 6. - 12. Wochen'
-    zeit2:
-    zeit3:
-    image: /images/index/card-1.png
-    url: /coaching.html
-    anmelden: https://www.thetasoul.ch/kontakt
   - title: Werde zu deinem Selbst-Coach
     theme: Coaching
     datum: 'Start: jederzeit'
@@ -26,15 +17,6 @@ events:
     image: /images/index/coaching-tisch.jpg
     url: /coaching.html
     anmelden: https://www.thetasoul.ch/kontakt
-  - title: Die Urkraft der Weiblichkeit
-    theme: 12 Wochen-Begleitung
-    datum: 'Start: jederzeit'
-    zeit1: 'Dauer: 12. Wochen'
-    zeit2:
-    zeit3: ' '
-    image: /icons/seminare-rund/eigene-icons-4.jpg
-    url: /die-urkraft-der-weiblichkeit.html
-    anmelden: https://www.thetasoul.ch/termin-buchen
   - title: Intuitive Anatomie - 10 Tage online, 5 Tage vor Ort
     theme: Theta Healing®
     datum: 'Mi. 1. November  - Fr.  17.  November 2023 (Pause: 7. + 8. November 2023)'
