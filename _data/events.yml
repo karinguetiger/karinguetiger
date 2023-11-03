@@ -1,13 +1,4 @@
 events:
-  - title: 'Neu: Erwecke deine Göttinenkraft'
-    theme:
-    datum: ab sofort buchbar
-    zeit1:
-    zeit2:
-    zeit3:
-    image: /images/index/energetische-behandlung.jpg
-    url: /energetische-behandlungen.html
-    anmelden: https://www.thetasoul.ch/termin-buchen
   - title: Werde zu deinem Selbst-Coach
     theme: Coaching
     datum: 'Start: jederzeit'
@@ -28,7 +19,7 @@ events:
     anmelden: https://www.thetahealing.com/seminar-300592-details.html
   - title: Aufbau DNA vor Ort oder Online
     theme: Theta Healing®
-    datum: Mi. 6. Dezember  - Fr. 8.  Dezember 2023
+    datum: Di. 5. Dezember  - Do. 7.  Dezember 2023
     zeit1: 09.00 Uhr - ca. 15.30 Uhr
     zeit2:
     zeit3:
