@@ -1,12 +1,9 @@
 events:
-  - title: >-
-      Wenn die Zeit für das Seminar nicht ideal für dich ist, lass es mich
-      einfach wissen. Wir können gemeinsam nach alternativen Möglichkeiten
-      suchen, damit es für dich passt.
-    theme: ''
-    datum: >-
-      Wir können gemeinsam nach alternativen Möglichkeiten suchen, damit es für
-      dich passt.
+  - title:
+    theme: >-
+      n. Wir können gemeinsam nach alternativen Möglichkeiten suchen, damit es
+      für dich passt.
+    datum:
     zeit1: ''
     zeit2:
     zeit3:
