@@ -35,10 +35,10 @@ events:
     image: /icons/seminare-rund/advanced.png
     url: /aufbau-dna.html
     anmelden: https://www.thetahealing.com/seminar-296749-details.html
-  - title:
+  - title: 'Wenn die Seminartermine nicht passen, melde dich bei mir. '
     theme:
-    datum: 'Wenn die Seminartermine nicht passen, melde dich bei mir. '
-    zeit1: Wir finden eine Lösung.
+    datum: Wir finden eine Lösung.
+    zeit1:
     zeit2:
     zeit3:
     image: ''
