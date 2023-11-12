@@ -1,9 +1,7 @@
 events:
-  - title: >-
-      Wenn die Seminartermine nicht passen, melde dich bei mir. Wir finden eine
-      Lösung
-    theme:
-    datum:
+  - title:
+    theme: 'Wenn die Seminartermine nicht passen, melde dich bei mir. '
+    datum: Wir finden eine Lösung
     zeit1: ''
     zeit2:
     zeit3:
