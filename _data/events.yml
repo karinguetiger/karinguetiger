@@ -1,13 +1,4 @@
 events:
-  - title:
-    theme:
-    datum: 'Wenn die Seminartermine nicht passen, melde dich bei mir. '
-    zeit1: Wir finden eine Lösung.
-    zeit2:
-    zeit3:
-    image: ''
-    url: ''
-    anmelden: ''
   - title: Rythm - Dein perfektes Körpergewicht
     theme: Theta Healing®
     datum: 14. November 2023 - online
@@ -44,3 +35,12 @@ events:
     image: /icons/seminare-rund/advanced.png
     url: /aufbau-dna.html
     anmelden: https://www.thetahealing.com/seminar-296749-details.html
+  - title:
+    theme:
+    datum: 'Wenn die Seminartermine nicht passen, melde dich bei mir. '
+    zeit1: Wir finden eine Lösung.
+    zeit2:
+    zeit3:
+    image: ''
+    url: ''
+    anmelden: ''
