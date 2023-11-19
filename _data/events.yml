@@ -35,7 +35,9 @@ events:
     image: /icons/rhythm.png
     url: /rhythm.html
     anmelden: https://www.thetahealing.com/seminar-308512-details.html
-  - title: 'Wenn die Seminartermine nicht passen, melde dich bei mir. '
+  - title: >-
+      Du möchtest gerne ein anderes Seminar besuchen oder ein Seminar an einem
+      anderen Datum besuchen? Melde dich einfach bei mir.
     theme:
     datum: Wir finden eine Lösung.
     zeit1:
