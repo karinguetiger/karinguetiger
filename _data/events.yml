@@ -1,22 +1,4 @@
 events:
-  - title: Soul Mate - Seelenpartner
-    theme: Theta Healing®
-    datum: Sa. 18. November 2023 - So. 19. November 2023
-    zeit1: 09.00 Uhr - ca. 15.30 Uhr
-    zeit2: 'VSS: Basis DNA, Aufbau DNA, Grabe tiefer'
-    zeit3:
-    image: /icons/seminare-rund/soul-mate.png
-    url: /seelenpartner.html
-    anmelden: https://www.thetahealing.com/seminar-308516-details.html
-  - title: Basis DNA vor Ort oder Online
-    theme: Theta Healing®
-    datum: Mo. 20. November  - Mi. 22. November 2023
-    zeit1: 09.00 Uhr - ca. 15.30 Uhr
-    zeit2:
-    zeit3:
-    image: /icons/seminare-rund/basic.png
-    url: /basis-dna.html
-    anmelden: https://www.thetasoul.ch/kontakt
   - title: Aufbau DNA vor Ort oder Online
     theme: Theta Healing®
     datum: Di. 5. Dezember  - Do. 7.  Dezember 2023
@@ -28,13 +10,22 @@ events:
     anmelden: https://www.thetahealing.com/seminar-296749-details.html
   - title: Rythm - Dein perfektes Körpergewicht
     theme: Theta Healing®
-    datum: 9. Dezember 2023 - online oder Vorort
+    datum: 9. Dezember 2023 - online oder Vorort in Cham
     zeit1: 09.00 Uhr - ca. 15.00 Uhr
     zeit2: 'VSS: Basis DNA, Aufbau DNA, Grabe tiefer'
     zeit3:
     image: /icons/rhythm.png
     url: /rhythm.html
     anmelden: https://www.thetahealing.com/seminar-308512-details.html
+  - title: Soul Mate - Seelenpartner
+    theme: Theta Healing®
+    datum: Do. 14. Dezember 2023 - Fr. 15. Dezember 2023
+    zeit1: 09.00 Uhr - ca. 15.30 Uhr
+    zeit2: 'VSS: Basis DNA, Aufbau DNA, Grabe tiefer'
+    zeit3:
+    image: /icons/seminare-rund/soul-mate.png
+    url: /seelenpartner.html
+    anmelden: https://www.thetahealing.com/seminar-308516-details.html
   - title: >-
       Interessierst du dich für ein anderes Seminar oder einen anderen Termin?
       Kontaktiere mich gerne.
