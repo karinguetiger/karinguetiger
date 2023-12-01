@@ -1,13 +1,4 @@
 events:
-  - title: Aufbau DNA vor Ort oder Online
-    theme: Theta Healing®
-    datum: Di. 5. Dezember  - Do. 7.  Dezember 2023
-    zeit1: 09.00 Uhr - ca. 15.30 Uhr
-    zeit2:
-    zeit3:
-    image: /icons/seminare-rund/advanced.png
-    url: /aufbau-dna.html
-    anmelden: https://www.thetahealing.com/seminar-296749-details.html
   - title: Übungsabend
     theme: Theta Healing®
     datum: 11. Dezember 2023
@@ -35,6 +26,15 @@ events:
     image: /icons/seminare-rund/soul-mate.png
     url: /seelenpartner.html
     anmelden: https://www.thetahealing.com/seminar-308516-details.html
+  - title: Aufbau DNA vor Ort
+    theme: Theta Healing®
+    datum: So. 28. Januar  - Di. 30. Januar 2024
+    zeit1: 09.00 Uhr - ca. 15.30 Uhr
+    zeit2:
+    zeit3:
+    image: /icons/seminare-rund/advanced.png
+    url: /aufbau-dna.html
+    anmelden: https://www.thetahealing.com/seminar-296749-details.html
   - title: >-
       Interessierst du dich für ein anderes Seminar oder einen anderen Termin?
       Kontaktiere mich gerne.
