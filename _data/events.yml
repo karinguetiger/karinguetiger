@@ -24,7 +24,7 @@ events:
     zeit2: 'Austausch: CHF 75.00'
     zeit3: Dies ist keine Theta Healing® Veranstaltung!
     image: /images/index/energetische-behandlung.jpg
-    url: /thetahealing.html
+    url:
     anmelden: https://www.thetasoul.ch/kontakt
   - title: Herzchakra intuitiv erleben
     theme:
