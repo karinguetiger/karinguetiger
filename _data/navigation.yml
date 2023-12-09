@@ -1,21 +1,21 @@
 dropdown:
-  - link: /thetahealing.html
-    name: ThetaHealing®
-  - link: /erwecke-deine-goettin.html
-    name: Erwecke deine Göttinenkraft
   - link: /access-bars.html
     name: Access Bars®
   - link: /coaching.html
     name: Coaching
   - link: /energetische-behandlungen.html
     name: Energetische Behandlungen
-  - link: /raindrop-massage.html
-    name: Raindrop Massage
-  - link: /emotional-release.html
-    name: Emotional Release
+  - link: /thetahealing.html
+    name: ThetaHealing®
   - link: /crystal-layout.html
     name: Crystal Layout
-  - link: /aromatherapie.html
-    name: Aromatherapie & Australische Buschblüten
+  - link: /emotional-release.html
+    name: Emotional Release
+  - link: /erwecke-deine-goettin.html
+    name: Erwecke deine Göttinenkraft
   - link: /goddess-revolution.html
     name: Goddess Revolution
+  - link: /raindrop-massage.html
+    name: Raindrop Massage
+  - link: /aromatherapie.html
+    name: Aromatherapie & Australische Buschblüten
