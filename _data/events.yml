@@ -1,13 +1,4 @@
 events:
-  - title: Manifestieren Workshop in Cham
-    theme:
-    datum: 12. Dezember 2023
-    zeit1: 09.00 - 11.30 Uhr
-    zeit2: 'Austausch: CHF 75.00'
-    zeit3: Dies ist keine Theta Healing® Veranstaltung!
-    image: /images/index/energetische-behandlung.jpg
-    url:
-    anmelden: https://www.thetasoul.ch/kontakt
   - title: Herzchakra intuitiv erleben - online
     theme:
     datum: 15. Dezember 2023
@@ -35,6 +26,15 @@ events:
     image: /icons/seminare-rund/advanced.png
     url: /aufbau-dna.html
     anmelden: https://www.thetahealing.com/seminar-296749-details.html
+  - title: Exklusives Retreat in Mallorca
+    theme: Erwecke deine Göttin und Weiblichkeit
+    datum: April 2024
+    zeit1:
+    zeit2:
+    zeit3:
+    image: /images/index/energetische-behandlung.jpg
+    url:
+    anmelden: https://www.thetasoul.ch/kontakt
   - title: >-
       Interessierst du dich für ein anderes Seminar oder einen anderen Termin?
       Kontaktiere mich gerne.
