@@ -51,6 +51,7 @@ section { position: relative; }
 .tall-70  { min-height: 70vh; }
 .tall-60  { min-height: 60vh; }
 .tall-50  { min-height: 50vh; }
+.tall-40  { min-height: 40vh; }
 
 /* Padding Utility Classes */ 
 .padded-sm { padding: 2.5%; }
@@ -154,6 +155,11 @@ section { position: relative; }
 
 .bg-behandlungen { background-image: url('/images/behandlungen/behandlungen-banner.jpg');}
 .bg-familienmediation { background-image: url('/images/familienmediation/familienmediation-banner.jpg');}
+.bg-coaching-1 { background-image: url('/images/behandlungen/coaching-3.jpg');}
+.bg-coaching-2 { background-image: url('/images/behandlungen/coaching-tisch.jpg');}
+.bg-coaching-3 { background-image: url('/images/behandlungen/coaching-4.jpg');}
+.bg-coaching-4 { background-image: url('/images/behandlungen/coaching-2.jpg');}
+
 
 .bg-overlay::after {
   z-index: 1;
@@ -662,7 +668,7 @@ option {
 
 label {
   line-height: 1.8rem;
-  color: white;
+  color: var(--dark-text);
   font-size: 1.2rem;
 }
 
