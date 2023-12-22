@@ -160,6 +160,16 @@ section { position: relative; }
 .bg-coaching-3 { background-image: url('/images/behandlungen/coaching-4.jpg');}
 .bg-coaching-4 { background-image: url('/images/behandlungen/coaching-2.jpg');}
 
+.bg-eb-1 { background-image: url('/images/behandlungen/eb-1.jpg');}
+.bg-eb-2 { background-image: url('/images/behandlungen/eb-2.jpg');}
+.bg-eb-3 { background-image: url('/images/behandlungen/eb-3.jpg');}
+.bg-eb-4 { background-image: url('/images/behandlungen/eb-4.jpg');}
+.bg-eb-5 { background-image: url('/images/behandlungen/eb-5.jpg');}
+.bg-eb-6 { background-image: url('/images/behandlungen/eb-6.jpg');}
+.bg-eb-7 { background-image: url('/images/behandlungen/eb-7.jpg');}
+.bg-eb-8 { background-image: url('/images/behandlungen/eb-8.jpg');}
+.bg-eb-9 { background-image: url('/images/behandlungen/eb-9.jpg');}
+
 
 .bg-overlay::after {
   z-index: 1;
