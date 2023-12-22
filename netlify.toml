@@ -1,10 +1,10 @@
 [[redirects]]
-  from = "https://karinguetiger.ch/*"
-  to = "https://www.thetasoul.ch/:splat"
+  from = "https://www.thetasoul.ch/"
+  to = "https://karinguetiger.ch/"
   status = 301
   force = true
 [[redirects]]
-  from = "https://www.karinguetiger.ch/*"
-  to = "https://www.thetasoul.ch/:splat"
+  from = "https://thetasoul.ch/"
+  to = "https://karinguetiger.ch/"
   status = 301
   force = true
