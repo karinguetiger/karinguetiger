@@ -138,7 +138,10 @@ section { position: relative; }
 .bg-green    { background-color: #BAE5D6; }
 .bg-white    { background-color: white; }
 
-.window { border-radius: 50rem 50rem 0rem 0; }
+.window { 
+  border-radius: 2rem
+
+}
 
 .bg-image {
     background-color: var(--light); /* Set a fall-back color while images are loading */ 
@@ -392,13 +395,13 @@ p a:hover {
 
 .header-logo-mobile {
   position: absolute;
-  top: 1.5rem;
+  top: 1.9rem;
   left: 1.5rem;
-  max-width: 52px;
+  max-width: 5rem;
 }
 
 .header-logo {
-  padding: 10%;
+  padding: 6%;
 }
 
 
@@ -591,7 +594,7 @@ footer nav a{
 .mobile-header-logo {
   position: absolute;
   top: 0.5rem;
-  max-width: 4rem;
+  max-width: 8.3rem;
   left: 0.5rem;
 }
 
