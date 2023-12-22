@@ -1,9 +1,9 @@
 ---
 layout: default
-title: ThetaSoul by Karin Gütiger
+title: Karin Gütiger Awaken Soul
 font-awesome: true
 seo:
-  title: ThetaSoul by Karin Gütiger | ThetaHealing® & Familienmediation
+  title: Karin Gütiger Awaken Soul | ThetaHealing® & Familienmediation
   description: >-
     Theta Healing ermöglicht dir dein Leben zu leben wie du es möchtest. Es ist
     dein Leben, deine Erschaffung, dein Weg. Liebe dein Leben. Familienmediation
@@ -25,11 +25,11 @@ seo:
           "Entdecke deine Essenz für ein bewusstes Leben!"<br /><br /><br /><br />
       </p>
       <p class="emphasis editable">
-          - ThetaSoul by Karin Gütiger<br /><strong>Master of Theta Healing®</strong>
+          - Karin Gütiger Awaken Soul<br /><strong>Master of Theta Healing®</strong>
       </p>
     </div>
     <div class="col-6_xs-10 padded">
-      <img data-src="/images/index/index-1.png" class="lazy" />
+      <img data-src="/images/index/index-1.jpg" class="lazy window" />
     </div>
   </section>
 </section>
@@ -52,18 +52,18 @@ seo:
   
   <div class="grid horizontal-scroll">
     
-    <div class="col-4_xs-11 padded-05"> 
+    <div class="col-5_xs-11 padded-05"> 
       
       <!--- First Card --->
       <a href="/behandlungen.html" class="card-link lazy">
         <div class="card bg-rose">
           <h3> Behandlungen </h3>
-          <h4 class="hide-sm"> Coaching <span class="hide-sm"> & Therapie </span> </h4>
+          <h4 class="hide-sm"> Coaching <span class="hide-sm"> & Anwendungen </span> </h4>
           <img data-src="/images/index/card-1.png" class="card-image lazy" />
         </div>
       </a>
     </div>
-    <div class="col-4_xs-11 padded-05"> 
+    <div class="col-5_xs-11 padded-05"> 
     
       <!--- Second Card --->
       <a href="/familienmediation.html" class="card-link lazy">
@@ -77,24 +77,38 @@ seo:
       </a>
     </div>
     
-    <div class="col-4_xs-11 padded-05"> 
+    <div class="col-5_xs-11 padded-05"> 
       
       <!--- Third Card --->
       <a href="/seminare.html" class="card-link">
         <div class="card bg-green">
-          <h3> Seminare </h3>
-          <h4 class="hide-sm"> ThetaHealing® </h4>
+          <h3> Seminare & Kurse </h3>
+          <h4 class="hide-sm"> ThetaHealing® <span class="hide-sm"> & mehr </span></h4>
           <img data-src="/images/index/card-3.png" class="card-image lazy" />
         </div>
       </a>
     </div>
+
+    <div class="col-5_xs-11 padded-05"> 
+      
+      <!--- Fourth Card --->
+      <a href="/retreats.html" class="card-link">
+        <div class="card bg-fourth">
+          <h3> Retreats </h3>
+          <h4 class="hide-sm"> ThetaHealing® <span class="hide-sm"> & mehr </span></h4>
+          <img data-src="/images/index/card-4.jpg" class="card-image lazy" />
+        </div>
+      </a>
+    </div>
+
+
   </div>
 </section>
 
 
 
 
-<section class="bg-medium">
+<section class="bg-v-light">
   <section class="capped-width grid-spaceAround-middle center padded">
       <div class="col-12 margin-b-2">
         <h2> Aktuelles </h2>
@@ -107,7 +121,7 @@ seo:
       </div>
 
       <div class="col-4_xs-12 padded-1 xs-padded-05">
-        <p class="margin-b-02"> {{ event.title }} </p>
+        <p class="margin-b-02 event-title"> {{ event.title }} </p>
         <p> {{ event.subtitle }} </p>
         <a href="{{ event.url }}"> mehr Info </a>
       </div>
@@ -116,7 +130,10 @@ seo:
         <a href="{{event.anmelden}}" target="_blank"> anmelden </a>
       </div>
 
-      <hr class="center short show-xs" />
+      <div class="col-12">
+        <hr class="center short" />
+      </div>
+
 
       {% endfor %}
 

@@ -29,8 +29,8 @@
 
     {% for behandlungen in page.behandlungen %}
 
-    <section class="bg-rose">
-        <section class="capped-width grid-spaceAround-middle padded center">
+    <section>
+        <section class="capped-width grid-spaceAround-middle padded-2 padded-b-0 center">
             <div class="col-12">
                 <p class="index-icon"> {{ behandlungen.icon }}</p>
                 <h2 class="tworem"> {{ behandlungen.titel }} </h2>
@@ -45,9 +45,9 @@
     {{content}}
 
 
-    <section class="bg-rose">
+    <section class="bg-medium">
         <section class="capped-width-v-narrow padded-2 center">
-            <a href="/termin-buchen.html" class="button"> Termin buchen </a>
+            <a href="/termin-buchen.html" class="button hover-white"> Termin buchen </a>
         </section>
     </section>
 

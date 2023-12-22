@@ -12,17 +12,16 @@ seo:
   keywords: Theta Healing, Mediation, Zug, Cham, Karin Gütiger, Thetasoul, Eventkalender
   hide-from-google: false
 ---
-<section class="bg-dark">
-    <section class="capped-width padded center white-text">
+<section>
+    <section class="capped-width padded center">
         <h2> Eventkalender </h2>
-        <p> - ThetaSoul by Karin Gütiger </p>
     </section>
 </section>
 
 <section>
 {% for event in site.data.events.events %}
 
-<section class="kalender-section bg-medium">
+<section class="kalender-section bg-v-light">
     <section class="capped-width-narrow text-white padded padded-b-2 padded-t-2 grid-middle-spaceBetween">
         <div class="col-7">
             <p class="editable margin-b-05"> {{event.theme}} </p>
@@ -46,8 +45,15 @@ seo:
 </section>
 
 
+<section class="capped-width-narrow padded center">
+    <p class="editable emphasis margin-b-2"> Interessierst du dich für ein anderes Seminar oder einen anderen Termin?
+        Kontaktiere mich gerne. <br><br> Wir finden eine Lösung.</p>
+    <a href="/kontakt.html" class="button"> Kontakt </a>
+</section>
+
+
 <section class="bg-dark">
     <section class="capped-width padded center white-text">
-        <a href="/seminare.html" class=button-light-big> Mehr Erfahren über die ThetaHealing® Seminare</a>
+        <a href="/seminare.html" class="button-light-big editable"> Mehr Erfahren über Seminare & Retreats </a>
     </section>
 </section>

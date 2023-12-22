@@ -13,9 +13,16 @@ seo:
   twitter_card:
   keywords: Mediation, Scheidung, Cham, Zug, Karin Gütiger, Familienmediation
   hide-from-google: false
+section:
+  - image: images/familienmediation/bild-1.png
+    description: <strong>Familienmediation</strong><br />In der Welt der Trennung und Scheidung kann der Prozess mitunter herausfordernd sein. Doch mit einer anderen Herangehensweise, nämlich der Mediation, wird dieser Weg zu einer Lösung für beide Partner und möglicherweise die ganze Familie geebnet. Die Idee dabei ist, dass das Paar oder Familie gemeinsam zu einer umfassenden Vereinbarung kommt, die für alle Beteiligten stimmig ist. Ich begleite durch diesen Prozess bis zur Einreichung der entsprechenden Vereinbarung vor Gericht.<br /><br />Die Mediation bietet Raum für offene Gespräche und ermöglicht es, die wichtigen Punkte der Trennung oder Scheidung auf eine Weise zu behandeln, die für beide Seiten akzeptabel ist. Dabei geht es nicht nur um das formelle Ende einer Partnerschaft, sondern auch um das Finden einer Lösung, die das Wohl aller im Blick hat.
+  - image: images/familienmediation/bild-2.jpg
+    description: In meiner Beratung biete ich auch die Möglichkeit an, gezielt jene Paare zu unterstützen, die bereits in den grundlegenden Aspekten ihrer Trennung oder Scheidung Einigkeit erzielt haben. Wenn es lediglich darum geht, die formalen Schritte zur Ausarbeitung einer Scheidungskonvention zu vollziehen, fokussieren wir uns speziell auf diesen Teil des Prozesses. In solchen Fällen steht mein Angebot im Zeichen der Effizienz, um diesen spezifischen Abschnitt der Scheidung so reibungslos und zielgerichtet wie möglich zu gestalten. Dies ermöglicht es Paaren, die bereits eine Basis der Einigung geschaffen haben, sich auf den rechtlichen Aspekt ihrer Scheidung zu konzentrieren und so effektiv den Übergang in ihre jeweiligen neuen Lebensabschnitte zu bewältigen.
+  - image: images/familienmediation/bild-3.jpg
+    description: In jedem Fall steht im Mittelpunkt, gemeinsam eine Lösung zu finden, die nicht nur juristisch korrekt, sondern auch für alle emotional vertretbar ist. Trennungen mögen schwer sein, aber mit Mediation kann der Weg zu einer neuen Phase im Leben auf eine unterstützende und verständnisvolle Weise geebnet werden.<br /><br /><strong>Coaching</strong><br />In diesem Coaching begleite ich Frauen wie auch Männer durch die Herausforderungen der Scheidungsphase. Das Ziel ist es, dabei zu helfen, dass diese Zeit selbstbestimmt und mit innerer Stärke durchlaufen werden kann, sodass der eigene neue Weg gestärkt und zuversichtlich beschritten werden kann. Gemeinsam arbeiten wir daran, Wege zur Freude und Zuversicht zu finden, damit wieder gestärkt und optimistisch in die Zukunft geblickt werden kann.
 ---
-<section class="bg-gold">
-    <section class="capped-width padded center">
+<section class="bg-image bg-familienmediation bg-overlay">
+    <section class="capped-width padded white-text center">
         <h1 class="editable">
             Familienmediation &amp; Coaching
         </h1>
@@ -25,19 +32,19 @@ seo:
     </section>
 </section>
 
-<section class="capped-width padded grid-spaceAround-middle">
+{% for section in page.section %}
+<section class="capped-width padded grid-spaceAround-middle section-flex-flip">
     <div class="col-6_xs-10">
-        <p class="editable">
-            <strong>Familienmediation</strong><br />In der Welt der Trennung und Scheidung kann der Prozess mitunter herausfordernd sein. Doch mit einer anderen Herangehensweise, nämlich der Mediation, wird dieser Weg zu einer Lösung für beide Partner und möglicherweise die ganze Familie geebnet. Die Idee dabei ist, dass das Paar oder Familie gemeinsam zu einer umfassenden Vereinbarung kommt, die für alle Beteiligten stimmig ist. Ich begleite durch diesen Prozess bis zur Einreichung der entsprechenden Vereinbarung vor Gericht.<br /><br />Die Mediation bietet Raum für offene Gespräche und ermöglicht es, die wichtigen Punkte der Trennung oder Scheidung auf eine Weise zu behandeln, die für beide Seiten akzeptabel ist. Dabei geht es nicht nur um das formelle Ende einer Partnerschaft, sondern auch um das Finden einer Lösung, die das Wohl aller im Blick hat.<br /><br />In meiner Beratung biete ich auch die Möglichkeit an, gezielt jene Paare zu unterstützen, die bereits in den grundlegenden Aspekten ihrer Trennung oder Scheidung Einigkeit erzielt haben. Wenn es lediglich darum geht, die formalen Schritte zur Ausarbeitung einer Scheidungskonvention zu vollziehen, fokussieren wir uns speziell auf diesen Teil des Prozesses. In solchen Fällen steht mein Angebot im Zeichen der Effizienz, um diesen spezifischen Abschnitt der Scheidung so reibungslos und zielgerichtet wie möglich zu gestalten. Dies ermöglicht es Paaren, die bereits eine Basis der Einigung geschaffen haben, sich auf den rechtlichen Aspekt ihrer Scheidung zu konzentrieren und so effektiv den Übergang in ihre jeweiligen neuen Lebensabschnitte zu bewältigen.<br /><br />In jedem Fall steht im Mittelpunkt, gemeinsam eine Lösung zu finden, die nicht nur juristisch korrekt, sondern auch für alle emotional vertretbar ist. Trennungen mögen schwer sein, aber mit Mediation kann der Weg zu einer neuen Phase im Leben auf eine unterstützende und verständnisvolle Weise geebnet werden.<br /><br /><strong>Coaching</strong><br />In diesem Coaching begleite ich Frauen wie auch Männer durch die Herausforderungen der Scheidungsphase. Das Ziel ist es, dabei zu helfen, dass diese Zeit selbstbestimmt und mit innerer Stärke durchlaufen werden kann, sodass der eigene neue Weg gestärkt und zuversichtlich beschritten werden kann. Gemeinsam arbeiten wir daran, Wege zur Freude und Zuversicht zu finden, damit wieder gestärkt und optimistisch in die Zukunft geblickt werden kann.
-        </p>
+        <p class="editable"> {{ section.description }} </p>
     </div>
     <div class="col-4_xs-7 xs-margin-t-2">
-        <img data-src="/images/index/card-2.png" class="window lazy" />
+        <img data-src="/{{ section.image }}" class="window lazy" />
     </div>
 </section>
+{% endfor %}
 
 
-<section class="bg-gold">
+<section class="bg-light">
     <div class="padded text-white capped-width">
         <h2 class="editable"> Ablauf </h2>
         <p class="editable"> Wie läuft eine Mediation ab? </p>
@@ -69,7 +76,7 @@ seo:
         <p class="emphasis editable">
             Kosten: CHF 250.00/h
         </p>
-        <a href="/termin-buchen.html" class="button-light margin-t-2 hover-white"> Unverbindliches Erstgespräch </a>
+        <a href="/termin-buchen.html" class="button-light margin-t-2 hover-white editable"> Unverbindliches Erstgespräch </a>
     </div>
 </section>
 
@@ -82,7 +89,7 @@ seo:
         <p class="emphasis editable"> Zeit: 19.00 Uhr - 20.30 Uhr </p>
         <hr class="short left" />
         <section class="capped-width-v-narrow padded-2 center">
-            <a href="/kalender.html" class="button"> Eventkalender </a>
+            <a href="/kalender.html" class="button editable"> Eventkalender </a>
         </section>
     </section>
 </section>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Behandlungen ThetaSoul by Karin Gütiger
-font-awesome: false
+font-awesome: true
 seo:
   title: Behandlungen ThetaSoul by Karin Gütiger
   description: >-
@@ -39,9 +39,14 @@ behandlungen:
   - title: Goddess Revolution
     link: /goddess-revolution.html
     icon: <i class="fa-solid fa-hands-praying"></i>
+section: 
+  - image: /images/behandlungen/bild-1.png
+    description: Die verschiedenen Arten der Behandlungen setzte ich intuitiv ein und sie können individuell miteinander kombiniert werden,&nbsp; um eine massgeschneiderte und tiefgreifende Erfahrung im Coaching zu schaffen. Diese flexible Vorgehensweise erlaubt es, die Behandlungen auf deine persönlichen Ziele und Bedürfnisse abzustimmen, wodurch jede Coaching-Sitzung zu einer einzigartigen und erfüllenden Reise zu deinem höheren Bewusstsein wird.<br /><br />Das Coaching im Bereich persönlicher Entwicklung eröffnet eine vielseitige Welt der Möglichkeiten. Diese transformative Methode zeigt ihre Wirksamkeit in verschiedenen Lebensbereichen. Egal, ob es um Beziehungsfragen, körperliche Herausforderungen, stressbedingte Belastungen oder sogar Themen rund um das Gewicht geht, das individuell auf dich abgestimmte Coaching bietet Unterstützung. Darüber hinaus dient es als kraftvolles Werkzeug im Prozess der Selbständigkeitsentwicklung, um Erfolgsblockaden zu durchbrechen.
+  - image: /images/behandlungen/bild-2.jpg
+    description: Begleitend arbeite ich mit Ätherischen Ölen und Australischen Buschblüten. In der Aromatherapie werden die ätherischen Öle verwendet, um das körperliche, emotionale und geistige Wohlbefinden zu fördern. Die Australischen Buschblüten, die in Australien heimisch sind, werden in der Naturheilkunde für ihre energetischen Eigenschaften geschätzt. Es wird angenommen, dass sie nicht nur auf körperlicher Ebene heilend wirken, sondern auch das emotionale Gleichgewicht unterstützen können. Wenn du konkrete Fragen dazu hast oder tiefer in das Thema einsteigen möchtest, stehe ich gerne zur Verfügung.
 ---
-<section class="bg-rose">
-    <section class="capped-width padded center">
+<section class="bg-image bg-behandlungen bg-overlay">
+    <section class="capped-width padded center white-text">
         <h1 class="editable"> Behandlungen </h1>
         <h1 class="subtitle editable">
             Coaching &amp; Anwendungen
@@ -49,26 +54,23 @@ behandlungen:
     </section>
 </section>
 
-<section class="capped-width padded grid-spaceAround-middle">
+{% for section in page.section %}
+<section class="capped-width padded grid-spaceAround-middle section-flex-flip">
     <div class="col-6_xs-10">
-        <p class="editable">
-            Die verschiedenen Arten der Behandlungen setzte ich intuitiv ein und sie können individuell miteinander kombiniert werden,&nbsp; um eine massgeschneiderte und tiefgreifende Erfahrung im Coaching zu schaffen. Diese flexible Vorgehensweise erlaubt es, die Behandlungen auf deine persönlichen Ziele und Bedürfnisse abzustimmen, wodurch jede Coaching-Sitzung zu einer einzigartigen und erfüllenden Reise zu deinem höheren Bewusstsein wird.<br /><br />Das Coaching im Bereich persönlicher Entwicklung eröffnet eine vielseitige Welt der Möglichkeiten. Diese transformative Methode zeigt ihre Wirksamkeit in verschiedenen Lebensbereichen. Egal, ob es um Beziehungsfragen, körperliche Herausforderungen, stressbedingte Belastungen oder sogar Themen rund um das Gewicht geht, das individuell auf dich abgestimmte Coaching bietet Unterstützung. Darüber hinaus dient es als kraftvolles Werkzeug im Prozess der Selbständigkeitsentwicklung, um Erfolgsblockaden zu durchbrechen.<br /><br />Begleitend arbeite ich mit Ätherischen Ölen und Australischen Buschblüten. In der Aromatherapie werden die ätherischen Öle verwendet, um das körperliche, emotionale und geistige Wohlbefinden zu fördern. Die Australischen Buschblüten, die in Australien heimisch sind, werden in der Naturheilkunde für ihre energetischen Eigenschaften geschätzt. Es wird angenommen, dass sie nicht nur auf körperlicher Ebene heilend wirken, sondern auch das emotionale Gleichgewicht unterstützen können. Wenn du konkrete Fragen dazu hast oder tiefer in das Thema einsteigen möchtest, stehe ich gerne zur Verfügung.&nbsp;
-        </p>
-        <p class="editable">
-            - Karin Gütiger
-        </p>
+        <p class="editable"> {{ section.description }} </p>
     </div>
     <div class="col-4_xs-7 xs-margin-t-2">
-        <img data-src="/images/index/card-1.png" class="window lazy" />
+        <img data-src="{{section.image}}" class="window lazy" />
     </div>
 </section>
+{% endfor %}
 
-<section class="bg-rose">
-    <div class="grid-spaceAround padded text-white center capped-width">
+<section>
+    <div class="grid-spaceAround padded padded-t-0 text-white center capped-width">
         {% for behandlungen in page.behandlungen %}
         <div class="col-4_sm-6_xs-12 padded-19">
             <a href="{{behandlungen.link}}" class="no-deco">
-                <p class="index-icon">{{behandlungen.icon}}</p>
+                <p class="index-icon"> {{behandlungen.icon}} </p>
                 <h2 class="tworem"> {{behandlungen.title}} </h2>
             </a>
         </div>

@@ -128,14 +128,15 @@ section { position: relative; }
 
 .rounded-corner { border-radius: 2rem; }
 
-.bg-dark     { background-color: var(--dark);}
+.bg-dark     { background: linear-gradient(to right, #E3BD63, #E0C587, #CBAE6B, #E0C587, #E3BD63); }
 .bg-featured { background-color: var(--featured);}
-.bg-medium   { background-color: var(--medium); }
-.bg-light    { background-color: var(--light); }
+.bg-medium   { background: linear-gradient(to right, #F0E9D8, #EFD69C, #E3BD63, #EFD69C, #F0E9D8); }
+.bg-light    { background: linear-gradient(to right, #F0E9D8, #EFD69C, #F0E9D8); }
 .bg-v-light  { background-color: var(--v-light); }
-.bg-rose     { background-color: #EFD69C; }
-.bg-gold     { background-color:  #C8AA64; }
-.bg-green    { background-color: #C4A55D; }
+.bg-rose     { background-color: var(--light)}
+.bg-gold     { background-color: var(--v-light) }
+.bg-fourth   { background-color: #CBAE6B }
+.bg-green    { background-color: var(--medium) }
 .bg-white    { background-color: white; }
 
 .window { 
@@ -151,6 +152,9 @@ section { position: relative; }
     background-repeat: no-repeat;
 }
 
+.bg-behandlungen { background-image: url('/images/behandlungen/behandlungen-banner.jpg');}
+.bg-familienmediation { background-image: url('/images/familienmediation/familienmediation-banner.jpg');}
+
 .bg-overlay::after {
   z-index: 1;
   content: ""; 
@@ -159,7 +163,7 @@ section { position: relative; }
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.3);
 }
 
 
@@ -334,6 +338,23 @@ p a:hover {
     font-weight: 200;
 }
 
+.button-white { 
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid white;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 200;
+}
+
+.button-white:hover { 
+  color: var(--light);
+  border: 1px solid var(--light);
+}
+
+
 .button-light { 
   display: inline-block;
   text-decoration: none;
@@ -484,8 +505,8 @@ footer nav a{
   left: -1rem;
   padding: 0.5rem;
   display:none; 
-  background-color: var(--light);
-  z-index: 2;
+  background-color: var(--v-light);
+  z-index: 20;
   text-align: left;
   min-width: 14rem;
 }
@@ -660,7 +681,7 @@ input, textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  border: 2px solid #EBBF8C;;
+  border: 2px solid var(--medium);
 }
 
 button {
@@ -697,7 +718,7 @@ textarea {
 
 hr.short {
   border: 1px solid var(--dark-text);
-  width: 2rem;
+  width: 7rem;
   margin: 1rem 0;
   text-align: center;
 }
@@ -707,6 +728,13 @@ hr.short.center {
   margin: 2rem auto;
 }
 
+.flex-flip {
+  flex-flow: row-reverse wrap;
+}
+
+.section-flex-flip:nth-child(2n) {
+  flex-flow: row-reverse wrap;
+}
 
 /* ------------ Index Page  ----------------------- */
 
@@ -725,6 +753,11 @@ hr.short.center {
   top: -0.7rem;
   font-size: 3rem;
   font-weight: 200; 
+}
+
+.event-title {
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 
@@ -820,7 +853,13 @@ hr.short.center {
   border: 1px solid var(--dark-text) !important;
 }
 
-
+.horizontal-scroll {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  padding-left: 1rem;
+  padding-bottom: 10%;
+  padding-right: 1rem;
+}
 
 /* ------------ Responsive Styles ----------------------- */
 
