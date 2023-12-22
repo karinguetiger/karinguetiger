@@ -133,9 +133,9 @@ section { position: relative; }
 .bg-medium   { background-color: var(--medium); }
 .bg-light    { background-color: var(--light); }
 .bg-v-light  { background-color: var(--v-light); }
-.bg-rose     { background-color: #F3DAED; }
-.bg-gold     { background-color: #EBBF8C; }
-.bg-green    { background-color: #BAE5D6; }
+.bg-rose     { background-color: #EFD69C; }
+.bg-gold     { background-color:  #C8AA64; }
+.bg-green    { background-color: #C4A55D; }
 .bg-white    { background-color: white; }
 
 .window { 
