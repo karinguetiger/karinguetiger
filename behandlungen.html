@@ -26,7 +26,7 @@ behandlungen:
     icon: <i class="fa-solid fa-bottle-droplet"></i>
 section:
   - image: /images/behandlungen/bild-1.png
-    description: >-
+    description_html: >-
       Die verschiedenen Arten der Behandlungen setzte ich intuitiv ein und sie
       können individuell miteinander kombiniert werden,&nbsp; um eine
       massgeschneiderte und tiefgreifende Erfahrung im Coaching zu schaffen.
@@ -42,7 +42,7 @@ section:
       Unterstützung. Darüber hinaus dient es als kraftvolles Werkzeug im Prozess
       der Selbständigkeitsentwicklung, um Erfolgsblockaden zu durchbrechen.
   - image: /images/behandlungen/bild-2.jpg
-    description: >-
+    description_html: >-
       Begleitend arbeite ich mit Ätherischen Ölen und Australischen Buschblüten.
       In der Aromatherapie werden die ätherischen Öle verwendet, um das
       körperliche, emotionale und geistige Wohlbefinden zu fördern. Die
@@ -65,7 +65,7 @@ section:
 {% for section in page.section %}
 <section class="capped-width padded grid-spaceAround-middle section-flex-flip">
     <div class="col-6_xs-10">
-        <p class="editable"> {{ section.description }} </p>
+        <p class="editable"> {{ section.description_html }} </p>
     </div>
     <div class="col-4_xs-7 xs-margin-t-2">
         <img data-src="{{section.image}}" class="window lazy" />
