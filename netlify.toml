@@ -8,3 +8,13 @@
   to = "https://karinguetiger.ch/"
   status = 301
   force = true
+[[redirects]]
+  from = "https://awakensoul.ch/"
+  to = "https://karinguetiger.ch/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.awakensoul.ch/"
+  to = "https://karinguetiger.ch/"
+  status = 301
+  force = true
