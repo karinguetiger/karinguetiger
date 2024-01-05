@@ -9,6 +9,10 @@ seo:
   twitter_card:
   keywords: Theta Healing, Seminar, Cham, Zug, Karin Gütiger, Thetasoul
   hide-from-google: false
+section:
+  - image: images/index/card-3.png
+    description_html: Die Grundausbildung im Theta Healing® mit den Modulen Basis DNA, Aufbau DNA und Grabe tiefer, legt ein solides Fundament und eröffnet eine aufregende Reise zur persönlichen und zwischenmenschlichen Transformation.<br /><br />Diese Seminare zeichnen sich durch ihre hohe Praxisorientierung aus, und die darauf aufbauenden Seminare vertiefen diese Praxis, öffnen neue Türen zu faszinierenden Erkenntnissen.<br /><br />In den Aufbauseminaren tauchen wir tiefer in spezifische Themen ein, wobei die Methoden des Theta Healing® verfeinert wird und der Fokus auf die Stärkung des eigenen Bewusstseins gelegt wird. Hier geht es nicht nur um Wissen, sondern auch um das persönliche Erleben und Anwenden.<br /><br />Das Ziel ist es, Theta Healing® als Technik zu verstehen und es zu einem integralen Bestandteil unseres Lebens zu machen. Die Seminare bieten eine Plattform für das Erlernen von Fähigkeiten und sind auch ein Raum der Selbstentdeckung.<br /><br />Sie unterstützen nicht nur dabei, mit anderen zu arbeiten, sondern auch mit sich selbst in tiefere Verbindung zu treten. In dieser Reise der Bewusstseinserweiterung ist Platz für persönliches Wachstum, tiefe Einsichten und natürlich auch für eine Prise Humor, denn die Reise zu einem höheren Bewusstsein sollte auch Freude und Leichtigkeit beinhalten.
+
 seminare:
   - title: Basis DNA
     image: /icons/basic.png
@@ -65,17 +69,16 @@ seminare:
     </section>
 </section>
 
-<section class="capped-width padded grid-spaceAround-middle">
-    <div class="col-6_xs-10 editable">
-        <p>
-            Die Grundausbildung im Theta Healing® mit den Modulen Basis DNA, Aufbau DNA und Grabe tiefer, legt ein solides Fundament und eröffnet eine aufregende Reise zur persönlichen und zwischenmenschlichen Transformation.<br /><br />Diese Seminare zeichnen sich durch ihre hohe Praxisorientierung aus, und die darauf aufbauenden Seminare vertiefen diese Praxis, öffnen neue Türen zu faszinierenden Erkenntnissen.<br /><br />In den Aufbauseminaren tauchen wir tiefer in spezifische Themen ein, wobei die Methoden des Theta Healing® verfeinert wird und der Fokus auf die Stärkung des eigenen Bewusstseins gelegt wird. Hier geht es nicht nur um Wissen, sondern auch um das persönliche Erleben und Anwenden.<br /><br />Das Ziel ist es, Theta Healing® als Technik zu verstehen und es zu einem integralen Bestandteil unseres Lebens zu machen. Die Seminare bieten eine Plattform für das Erlernen von Fähigkeiten und sind auch ein Raum der Selbstentdeckung.<br /><br />Sie unterstützen nicht nur dabei, mit anderen zu arbeiten, sondern auch mit sich selbst in tiefere Verbindung zu treten. In dieser Reise der Bewusstseinserweiterung ist Platz für persönliches Wachstum, tiefe Einsichten und natürlich auch für eine Prise Humor, denn die Reise zu einem höheren Bewusstsein sollte auch Freude und Leichtigkeit beinhalten.
-        </p>
-        <p> - ThetaSoul by Karin Gütiger </p>
+{% for section in page.section %}
+<section class="capped-width padded grid-spaceAround-middle section-flex-flip">
+    <div class="col-6_xs-10">
+        <p class="editable"> {{ section.description_html }} </p>
     </div>
     <div class="col-4_xs-7 xs-margin-t-2">
-        <img data-src="/images/index/card-3.png" class="window lazy" />
+        <img data-src="/{{ section.image }}" class="window lazy" />
     </div>
 </section>
+{% endfor %}
 
 
 <!--------------------- Seminarübersicht -------------------------->
