@@ -26,6 +26,15 @@ events:
     image: /icons/seminare-rund/Intuitive-anatomy.png
     url: /intuitive-anatomie.html
     anmelden: https://www.thetahealing.com/seminar-316446-details.html
+  - title: Basis DNA
+    theme: Theta Healing®
+    datum: Fr. 21. - So. 23. Juni 2024
+    zeit1: 09.00 Uhr - ca. 15.00 Uhr
+    zeit2:
+    zeit3:
+    image: /icons/seminare-rund/basic.png
+    url: /basis-dna.html
+    anmelden: https://www.thetasoul.ch/termin-buchen
   - title: ''
     theme: ''
     datum: ''
