@@ -8,15 +8,15 @@ events:
     image: /icons/seminare-rund/plant.png
     url: /pflanzen.html
     anmelden: https://www.thetahealing.com/seminar-324372-details.html
-  - title: Du & der Schöpfer - Gruppenseminar
+  - title: 'Du & der Schöpfer '
     theme: Theta Healing®
     datum: Mo. 20. - Di. 21. Mai 2024
     zeit1: 09.00 Uhr - ca. 15.00 Uhr
-    zeit2: Beschränkte Teilnehmerzahl
+    zeit2:
     zeit3:
     image: /icons/seminare-rund/Du-und-gott.png
     url: /du-und-gott.html
-    anmelden: https://www.thetasoul.ch/termin-buchen
+    anmelden: https://www.thetahealing.com/seminar-329138-details.html
   - title: Intuitive Anatomie  - online / Vorort
     theme: Theta Healing®
     datum: Fr.  24. Mai 2024 - Sa.  8. Juni 2024 (Pause 1. Juni 2024)
