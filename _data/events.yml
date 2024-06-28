@@ -1,18 +1,9 @@
 events:
-  - title: Du & die Schöpfung - Online - ausgebucht
-    theme: Theta Healing®
-    datum: Sa. 29. - So. 30. Juni 2024
-    zeit1: 09.00 Uhr - ca. 15.00 Uhr
-    zeit2:
-    zeit3:
-    image: /icons/seminare-rund/Du-und-gott.png
-    url: /du-und-gott.html
-    anmelden:
   - title: 'Aurora: 3-Monateprogramm (online)'
     theme: Weibliche Chakren Harmonie und Selbstverwirklichung
     datum: 'Start: 4. September 2024 '
     zeit1: jeweils Mittwochabend von 18.30 Uhr - ca. 20.30 Uhr
-    zeit2: Kontaktiere mich gerne für ein Infogespräch
+    zeit2: Kontaktiere mich gerne für ein Infogespräch.
     zeit3:
     image: /uploads/pajuramacopyright-42.jpg
     url: ''
