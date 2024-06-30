@@ -1,4 +1,13 @@
 events:
+  - title: Basis DNA - Abendkurs
+    theme: Theta Healing®
+    datum: 17. -19. Juli 2024 - online
+    zeit1: 17.00 Uhr - 22.00 Uhr
+    zeit2: ''
+    zeit3:
+    image: /icons/seminare-rund/basic.png
+    url: https://karinguetiger.ch/basis-dna
+    anmelden: https://karinguetiger.ch/kontakt
   - title: 'Aurora: 3-Monateprogramm (online)'
     theme: Weibliche Chakren Harmonie und Selbstverwirklichung
     datum: 'Start: im September 2024'
