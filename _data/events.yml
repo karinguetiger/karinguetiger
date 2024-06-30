@@ -11,9 +11,27 @@ events:
   - title: 'Aurora: 3-Monateprogramm (online)'
     theme: Weibliche Chakren Harmonie und Selbstverwirklichung
     datum: 'Start: im September 2024'
-    zeit1:
+    zeit1: 'Investition in dich: CHF 2´000.00 / Premium: CHF 3´500.00'
     zeit2: Kontaktiere mich gerne für ein Infogespräch.
     zeit3:
     image: /uploads/pajuramacopyright-42.jpg
-    url: ''
+    url: /uploads/September-2024.pdf
+    anmelden: https://karinguetiger.ch/kontakt
+  - title: 'Inner Balance: 4-Wochen-Programm'
+    theme: Chakras & Holistic Healing
+    datum: 'Start: im September 2024'
+    zeit1: 'Investition in dich: CHF 950.00'
+    zeit2: Kontaktiere mich gerne für ein Infogespräch.
+    zeit3:
+    image: /images/behandlungen/eb-6.jpg
+    url: /uploads/September-2024.pdf
+    anmelden: https://karinguetiger.ch/kontakt
+  - title: Auroria Feminar
+    theme: Weibliche Präsenz und sinnliche Stärke
+    datum: 'Start: im September 2024'
+    zeit1: 'Investition in Dich: CHF 666.00'
+    zeit2: Kontaktiere mich gerne für ein Infogespräch.
+    zeit3:
+    image: /images/behandlungen/coaching-tisch.jpg
+    url: /uploads/September-2024.pdf
     anmelden: https://karinguetiger.ch/kontakt
