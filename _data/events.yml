@@ -14,8 +14,8 @@ events:
     zeit1: 09.00 Uhr - ca. 15.30 Uhr
     zeit2: ''
     zeit3:
-    image: /icons/seminare-rund/basic.png
-    url: https://karinguetiger.ch/basis-dna
+    image: /icons/seminare-rund/advanced.png
+    url: /aufbau-dna.html
     anmelden: https://karinguetiger.ch/kontakt
   - title: AURORA
     theme: Powerfull Transformation
