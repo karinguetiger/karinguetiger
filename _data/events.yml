@@ -8,6 +8,15 @@ events:
     image: /icons/seminare-rund/basic.png
     url: https://karinguetiger.ch/basis-dna
     anmelden: https://karinguetiger.ch/kontakt
+  - title: Aufbau DNA - vor Ort
+    theme: Theta Healing®
+    datum: 23. - 25. August 2024
+    zeit1: 09.00 Uhr - ca. 15.30 Uhr
+    zeit2: ''
+    zeit3:
+    image: /icons/seminare-rund/basic.png
+    url: https://karinguetiger.ch/basis-dna
+    anmelden: https://karinguetiger.ch/kontakt
   - title: AURORA
     theme: Powerfull Transformation
     datum: 'Start: im September 2024'
