@@ -381,6 +381,22 @@ section {
   background-image: url('/images/familienmediation/familienmediation-banner.jpg');
 }
 
+.bg-awake-1 {
+  background-image: url('/images/awake-your-soul/awake-your-soul.jpg');
+}
+
+.bg-awake-2 {
+  background-image: url('/images/awake-your-soul/inner-balance.jpg');
+}
+
+.bg-awake-3 {
+  background-image: url('/images/awake-your-soul/aurora.jpg');
+}
+
+.bg-awake-4 {
+  background-image: url('/images/awake-your-soul/4.jpg');
+}
+
 .bg-coaching-1 {
   background-image: url('/images/behandlungen/coaching-3.jpg');
 }
