@@ -24,7 +24,7 @@ events:
     zeit2: Kontaktiere mich gerne für ein Infogespräch.
     zeit3:
     image: /uploads/frau-sonnenaufgang.jpg
-    url: /coaching.html
+    url: /awake-your-soul.html
     anmelden: https://karinguetiger.ch/kontakt
   - title: 'Inner Balance: 4-Wochen-Programm'
     theme: Chakras & Holistic Healing
@@ -33,7 +33,7 @@ events:
     zeit2: Kontaktiere mich gerne für ein Infogespräch.
     zeit3:
     image: /images/behandlungen/eb-6.jpg
-    url: /coaching.html
+    url: /awake-your-soul.html
     anmelden: https://karinguetiger.ch/kontakt
   - title: Auroria Femina
     theme: Weibliche Präsenz und sinnliche Stärke
@@ -42,5 +42,5 @@ events:
     zeit2: Kontaktiere mich gerne für ein Infogespräch.
     zeit3:
     image: /images/behandlungen/coaching-tisch.jpg
-    url: /coaching.html
+    url: /awake-your-soul.html
     anmelden: https://karinguetiger.ch/kontakt
