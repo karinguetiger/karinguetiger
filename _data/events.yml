@@ -26,6 +26,15 @@ events:
     image: /icons/seminare-rund/advanced.png
     url: /aufbau-dna.html
     anmelden: https://karinguetiger.ch/kontakt
+  - title: Rythm - das perfekte Körpergewicht
+    theme: Theta Healing®
+    datum: 26. August 2024
+    zeit1: 09.00 Uhr - ca. 15.30 Uhr
+    zeit2: ''
+    zeit3:
+    image: /icons/seminare-rund/rhythm.png
+    url: /rhythm.html
+    anmelden: https://karinguetiger.ch/kontakt
   - title: AURORA - online
     theme: Energiefluss und Weiblichkeit
     datum: >-
@@ -39,8 +48,8 @@ events:
     anmelden: https://karinguetiger.ch/kontakt
   - title: 'Inner Balance: 4-Wochen-Programm - online'
     theme: Chakras & Holistic Healing
-    datum: 'Start: im September 2024'
-    zeit1: 'Investition in dich: CHF 888.00 (online) - CHF 1´111.00 vor Ort '
+    datum: 'Start: 1. September 2024 jeweils 09.00 Uhr - ca. 11.30 Uhr'
+    zeit1: 'Investition in dich: CHF 888.00'
     zeit2: Kontaktiere mich gerne für ein Infogespräch.
     zeit3:
     image: /images/behandlungen/eb-6.jpg
