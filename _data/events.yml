@@ -102,3 +102,14 @@ events:
     image: /icons/seminare-rund/dig-deeper.png
     url: /rhythm.html
     anmelden: https://karinguetiger.ch/kontakt
+  - title: ''
+    theme: >-
+      Interessierst du dich für ein anderes Seminar oder einen anderen Termin?
+      Kontaktiere mich gerne.
+    datum: ''
+    zeit1: ''
+    zeit2: ''
+    zeit3:
+    image: ''
+    url: ''
+    anmelden: ''
