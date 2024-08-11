@@ -46,31 +46,33 @@ events:
     image: /icons/seminare-rund/dig-deeper.png
     url: /rhythm.html
     anmelden: https://karinguetiger.ch/kontakt
-  - title: AURORA - online
+  - title: AURORA - online (sonntags / vor Ort dienstags
     theme: Energiefluss und Weiblichkeit (12-Wochen)
     datum: >-
       Start: 1. September 2024, jeweils sonntags 09-ca. 11 Uhr. Zoom wird
-      aufgenommen.
+      aufgenommen.. Vor Ort Dienstags 09.00 Uhr - ca. 11 Uhr
     zeit1: 'Investition in dich: CHF 2´000.00 / Premium: CHF 3´500.00'
     zeit2: Kontaktiere mich gerne für ein Infogespräch.
     zeit3:
     image: /uploads/frau-sonnenaufgang.jpg
     url: /awake-your-soul.html
     anmelden: https://karinguetiger.ch/kontakt
-  - title: 'Inner Balance: 4-Wochen-Programm - online'
+  - title: 'Inner Balance: 4-Wochen-Programm - online (sonntags) / vor Ort (dienstags)'
     theme: Chakras & Holistic Healing
     datum: >-
       Start: 1. September 2024 jeweils 09.00 Uhr - ca. 11.00 Uhr (Zoom wird
-      aufgezeichnet)
+      aufgezeichnet). Vor Ort dientags 09.00 Uhr - 11 Uhr
     zeit1: 'Investition in dich: CHF 888.00'
     zeit2: Kontaktiere mich gerne für ein Infogespräch.
     zeit3:
     image: /images/behandlungen/eb-6.jpg
     url: /awake-your-soul.html
     anmelden: https://karinguetiger.ch/kontakt
-  - title: Auroria Femina - online
+  - title: Auroria Femina - online / vor Ort
     theme: Weibliche Präsenz und sinnliche Stärke
-    datum: 'Start: 29. September 2024 (4. Wochen)'
+    datum: >-
+      Start: 29. September 2024 (4. Wochen) online jeweils sonntags, vor Ort
+      dienstags von 09.00 - 11 Uhr
     zeit1: 'Investition in Dich: CHF 888.00 '
     zeit2: Kontaktiere mich gerne für ein Infogespräch.
     zeit3:
