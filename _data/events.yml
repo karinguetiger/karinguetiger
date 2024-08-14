@@ -59,18 +59,7 @@ events:
     image: /images/behandlungen/eb-6.jpg
     url: /awake-your-soul.html
     anmelden: https://karinguetiger.ch/kontakt
-  - title: Auroria Femina - online / vor Ort
-    theme: Weibliche Präsenz und sinnliche Stärke
-    datum: >-
-      Start: 29. September 2024 (4. Wochen) online jeweils sonntags, vor Ort
-      dienstags von 09.00 - 11 Uhr
-    zeit1: 'Investition in Dich: CHF 888.00 '
-    zeit2: Kontaktiere mich gerne für ein Infogespräch.
-    zeit3:
-    image: /images/behandlungen/coaching-tisch.jpg
-    url: /awake-your-soul.html
-    anmelden: https://karinguetiger.ch/kontakt
-  - title: Du & der Schöpfer
+  - title: Du & die Schöpfung
     theme: Theta Healing®
     datum: 12.-13. September 2024
     zeit1: 09.00 Uhr - ca. 15.30 Uhr
@@ -96,6 +85,17 @@ events:
     zeit3:
     image: /icons/seminare-rund/advanced.png
     url: /aufbau-dna.html
+    anmelden: https://karinguetiger.ch/kontakt
+  - title: Auroria Femina - online / vor Ort
+    theme: Weibliche Präsenz und sinnliche Stärke
+    datum: >-
+      Start: 29. September 2024 (4. Wochen) online jeweils sonntags, vor Ort
+      dienstags von 09.00 - 11 Uhr
+    zeit1: 'Investition in Dich: CHF 888.00 '
+    zeit2: Kontaktiere mich gerne für ein Infogespräch.
+    zeit3:
+    image: /images/behandlungen/coaching-tisch.jpg
+    url: /awake-your-soul.html
     anmelden: https://karinguetiger.ch/kontakt
   - title: Grabe tiefer
     theme: Theta Healing®
