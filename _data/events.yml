@@ -70,6 +70,15 @@ events:
     image: /images/behandlungen/coaching-tisch.jpg
     url: /awake-your-soul.html
     anmelden: https://karinguetiger.ch/kontakt
+  - title: Du & der Schöpfer
+    theme: Theta Healing®
+    datum: 12.-13. September 2024
+    zeit1: 09.00 Uhr - ca. 15.30 Uhr
+    zeit2: ''
+    zeit3:
+    image: /icons/seminare-rund/Du-und-gott.png
+    url: /du-und-gott.html
+    anmelden: https://karinguetiger.ch/kontakt
   - title: Basis DNA - vor Ort
     theme: Theta Healing®
     datum: 17. - 19. September 2024
@@ -78,15 +87,6 @@ events:
     zeit3:
     image: /icons/seminare-rund/basic.png
     url: https://karinguetiger.ch/basis-dna
-    anmelden: https://karinguetiger.ch/kontakt
-  - title: Du & der Schöpfer
-    theme: Theta Healing®
-    datum: 17.-18. September 2024
-    zeit1: 09.00 Uhr - ca. 15.30 Uhr
-    zeit2: ''
-    zeit3:
-    image: /icons/seminare-rund/Du-und-gott.png
-    url: /du-und-gott.html
     anmelden: https://karinguetiger.ch/kontakt
   - title: Aufbau DNA - vor Ort
     theme: Theta Healing®
