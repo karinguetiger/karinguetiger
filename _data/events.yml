@@ -10,7 +10,7 @@ events:
     image: ''
     url: ''
     anmelden: ''
-  - title: Aufbau DNA - vor Ort
+  - title: Aufbau DNA
     theme: Theta Healing®
     datum: 23.-25. August 2024
     zeit1: 09.00 Uhr - ca. 15.30 Uhr
@@ -68,7 +68,7 @@ events:
     image: /icons/seminare-rund/Du-und-gott.png
     url: /du-und-gott.html
     anmelden: https://karinguetiger.ch/kontakt
-  - title: Basis DNA - vor Ort
+  - title: 'Basis DNA '
     theme: Theta Healing®
     datum: 17. - 19. September 2024
     zeit1: 'Di/Do: 13.00- ca. 19.00 Uhr - Mi: 09.00 Uhr - ca. 15.00 Uhr'
@@ -77,7 +77,7 @@ events:
     image: /icons/seminare-rund/basic.png
     url: https://karinguetiger.ch/basis-dna
     anmelden: https://karinguetiger.ch/kontakt
-  - title: Aufbau DNA - vor Ort
+  - title: 'Aufbau DNA '
     theme: Theta Healing®
     datum: 24. - 26. September 2024
     zeit1: 09.00 Uhr - ca. 15.30 Uhr
