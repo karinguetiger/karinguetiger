@@ -10,15 +10,6 @@ events:
     image: ''
     url: ''
     anmelden: ''
-  - title: Seelenpartner
-    theme: Theta Healing®
-    datum: 16. & 17. August 2024
-    zeit1: 09.00 Uhr - ca. 15.30 Uhr
-    zeit2: ''
-    zeit3:
-    image: /icons/seminare-rund/soul-mate.png
-    url: /seelenpartner.html
-    anmelden: https://karinguetiger.ch/kontakt
   - title: Aufbau DNA - vor Ort
     theme: Theta Healing®
     datum: 23.-25. August 2024
@@ -81,8 +72,8 @@ events:
     anmelden: https://karinguetiger.ch/kontakt
   - title: Basis DNA - vor Ort
     theme: Theta Healing®
-    datum: 11. - 12. September 2024
-    zeit1: 09.00 Uhr - ca. 15.30 Uhr
+    datum: 17. - 19. September 2024
+    zeit1: 'Di/Do: 13.00- ca. 19.00 Uhr - Mi: 09.00 Uhr - ca. 15.00 Uhr'
     zeit2: ''
     zeit3:
     image: /icons/seminare-rund/basic.png
