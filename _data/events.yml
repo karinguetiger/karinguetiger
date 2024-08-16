@@ -10,15 +10,6 @@ events:
     image: ''
     url: ''
     anmelden: ''
-  - title: Aufbau DNA
-    theme: Theta Healing®
-    datum: 23.-25. August 2024
-    zeit1: 09.00 Uhr - ca. 15.30 Uhr
-    zeit2: ''
-    zeit3:
-    image: /icons/seminare-rund/advanced.png
-    url: /aufbau-dna.html
-    anmelden: https://karinguetiger.ch/kontakt
   - title: 'Rythm - das perfekte Körpergewicht '
     theme: Theta Healing®
     datum: 26. August 2024
@@ -28,16 +19,7 @@ events:
     image: /icons/seminare-rund/rhythm.png
     url: /rhythm.html
     anmelden: https://karinguetiger.ch/kontakt
-  - title: Grabe tiefer
-    theme: Theta Healing®
-    datum: 29. - 30.  August 2024
-    zeit1: 09.00 Uhr - ca. 15.30 Uhr
-    zeit2: ''
-    zeit3:
-    image: /icons/seminare-rund/dig-deeper.png
-    url: /rhythm.html
-    anmelden: https://karinguetiger.ch/kontakt
-  - title: AURORA - online (sonntags) / vor Ort dienstags
+  - title: AURORA - online (sonntags) / vor Ort (dienstags)
     theme: Berührbarkeit & Soulmission
     datum: >-
       Start: 1. September 2024, jeweils sonntags 09-ca. 11 Uhr. Zoom wird
