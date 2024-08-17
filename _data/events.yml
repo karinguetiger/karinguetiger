@@ -19,6 +19,15 @@ events:
     image: /icons/seminare-rund/rhythm.png
     url: /rhythm.html
     anmelden: https://buy.stripe.com/bIY7u96CG61PgrCeUZ
+  - title: Du & die Erde
+    theme: Theta Healing®
+    datum: 28. - 29. August 2024
+    zeit1: 09.00 Uhr - ca. 15.30 Uhr
+    zeit2: ''
+    zeit3:
+    image: /icons/seminare-rund/Du-und-die-erde.png
+    url: /thetahealing-du-die-erde-seminar.html
+    anmelden: https://buy.stripe.com/9AQ8ydaSW4XLcbm6oA
   - title: AURORA - online (sonntags) / vor Ort (dienstags)
     theme: Berührbarkeit & Soulmission
     datum: >-
