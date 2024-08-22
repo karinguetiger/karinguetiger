@@ -19,28 +19,17 @@ events:
     image: /icons/seminare-rund/Du-und-die-erde.png
     url: /thetahealing-du-die-erde-seminar.html
     anmelden: https://buy.stripe.com/9AQ8ydaSW4XLcbm6oA
-  - title: AURORA - online (sonntags) / vor Ort (dienstags)
-    theme: Berührbarkeit & Soulmission
-    datum: >-
-      Start: 1. September 2024, jeweils sonntags 09-ca. 11 Uhr. Zoom wird
-      aufgenommen. Vor Ort Dienstags 09.00 Uhr - ca. 11 Uhr
-    zeit1: 'Investition in dich: CHF 2´000.00 / Premium: CHF 3´500.00'
-    zeit2: Kontaktiere mich gerne für ein Infogespräch.
+  - title: ChakraFlow
+    theme: Weibliche Energieheilung über 7 Wochen
+    datum: 'Start: 1. Oktober 2024'
+    zeit1: 'Investition in dich: CHF 777.00'
+    zeit2: >-
+      Kontaktiere mich gerne für ein Infogespräch oder falls du eine Rechnung
+      wünscht.
     zeit3:
-    image: /uploads/frau-sonnenaufgang.jpg
-    url: /awake-your-soul.html
-    anmelden: https://karinguetiger.ch/kontakt
-  - title: 'Inner Balance: 4-Wochen-Programm - online (sonntags) / vor Ort (dienstags)'
-    theme: Chakras & Holistic Healing
-    datum: >-
-      Start: 1. September 2024 jeweils 09.00 Uhr - ca. 11.00 Uhr (Zoom wird
-      aufgezeichnet). Vor Ort dientags 09.00 Uhr - 11 Uhr
-    zeit1: 'Investition in dich: CHF 888.00'
-    zeit2: Kontaktiere mich gerne für ein Infogespräch.
-    zeit3: Falls du eine Rechnung wünschst, kontaktiere mich bitte.
     image: /images/behandlungen/eb-6.jpg
     url: /awake-your-soul.html
-    anmelden: https://buy.stripe.com/fZe4hXbX09e1fnycMM
+    anmelden: https://buy.stripe.com/14k6q5d140Hvdfq28l
   - title: Du & die Schöpfung
     theme: Theta Healing®
     datum: 12.-13. September 2024
