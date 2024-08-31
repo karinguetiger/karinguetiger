@@ -10,24 +10,6 @@ events:
     image: ''
     url: ''
     anmelden: ''
-  - title: Du & die Erde
-    theme: Theta Healing®
-    datum: 28. - 29. August 2024
-    zeit1: 09.00 Uhr - ca. 15.30 Uhr
-    zeit2: ''
-    zeit3:
-    image: /icons/seminare-rund/Du-und-die-erde.png
-    url: /thetahealing-du-die-erde-seminar.html
-    anmelden: https://buy.stripe.com/9AQ8ydaSW4XLcbm6oA
-  - title: Chakra Essentials
-    theme: 3-Wochen Minikurs (kostenfrei)
-    datum: 'Start: 5. September 2024, 19.00 Uhr via Zoom'
-    zeit1: 5.,12., 19. September 2024 (je 1 Std).
-    zeit2:
-    zeit3:
-    image: /images/behandlungen/coaching-4.jpg
-    url: /awake-your-soul.html
-    anmelden: https://karinguetiger.ch/kontakt
   - title: Du & die Schöpfung
     theme: Theta Healing®
     datum: 12.-13. September 2024
